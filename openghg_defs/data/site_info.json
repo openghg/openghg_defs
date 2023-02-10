@@ -376,18 +376,18 @@
       ],
       "height": ["248m", "108m", "42m"],
       "height_name": ["248magl", "110magl", "50magl"],
-      "height_station_masl": 380.0,
-      "latitude": 54.35858,
+      "height_station_masl": 382,
+      "latitude": 54.35846,
       "long_name": "Bilsdale, UK",
-      "longitude": -1.15033
+      "longitude": -1.15018
     },
      "NOAA": {
       "height": ["108m", "42m", "248m"],
       "height_name": ["110magl", "50magl", "248magl"],
-      "height_station_masl": 380.0,
-      "latitude": 54.35858,
+      "height_station_masl": 382,
+      "latitude": 54.35846,
       "long_name": "Bilsdale, UK",
-      "longitude": -1.15033
+      "longitude": -1.15018
     }
   },
   "BTT": {
@@ -1226,18 +1226,18 @@
     "DECC": {
       "height": ["100m", "50m"],
       "height_name": ["100magl", "50magl"],
-      "height_station_masl": 150.0,
-      "latitude": 50.97675,
+      "height_station_masl": 158,
+      "latitude": 50.97661,
       "long_name": "Heathfield, UK",
-      "longitude": 0.23048
+      "longitude": 0.23042
     },
     "GAUGE": {
       "height": ["100m", "50m"],
       "height_name": ["100magl", "50magl"],
-      "height_station_masl": 150.0,
-      "latitude": 50.97675,
+      "height_station_masl": 158,
+      "latitude": 50.97661,
       "long_name": "Heathfield, UK",
-      "longitude": 0.23048
+      "longitude": 0.23042
     }
   },
   "HFM": {
@@ -1519,23 +1519,23 @@
     "AGAGE": {
       "height": ["1000m", "10m"],
       "height_name": ["1000magl", "10magl"],
-      "height_station_masl": 3570.0,
-      "latitude": 46.5475,
+      "height_station_masl": 3528,
+      "latitude": 46.54753,
       "long_name": "Jungfraujoch, Switzerland",
-      "longitude": 7.979167
+      "longitude": 7.98498
     },
     "ICOS": {
       "height": ["10m"],
       "height_name": ["10magl"],
-      "height_station_masl": 3570.0,
-      "latitude": 46.5475,
+      "height_station_masl": 3528,
+      "latitude": 46.54753,
       "long_name": "Jungfraujoch, Switzerland",
-      "longitude": 7.979167
+      "longitude": 7.98498
     },
     "NOAA": {
-      "latitude": 46.55,
-      "longitude": 7.987,
-      "height_station_masl": 3570.0,
+      "latitude": 46.54753,
+      "longitude": 7.98498,
+      "height_station_masl": 3528,
       "long_name": "Jungfraujoch, Switzerland",
       "height": ["5m"],
       "height_name": ["5magl"]
@@ -1862,24 +1862,24 @@
     "AGAGE": {
       "height": ["10m"],
       "height_name": ["10magl"],
-      "height_station_masl": 5.0,
-      "latitude": 53.32611,
+      "height_station_masl": 8.0,
+      "latitude": 53.32663,
       "long_name": "Mace Head, Ireland",
-      "longitude": -9.90389
+      "longitude": -9.90456
     },
     "ICOS": {
       "height": ["10m"],
       "height_name": ["10magl"],
-      "height_station_masl": 5.0,
-      "latitude": 53.32611,
+      "height_station_masl": 8.0,
+      "latitude": 53.32663,
       "long_name": "Mace Head, Ireland",
-      "longitude": -9.90389
+      "longitude": -9.90456
     },
     "NOAA": {
-      "height_station_masl": 5.0,
-      "latitude": 53.326,
+      "height_station_masl": 8.0,
+      "latitude": 53.32663,
       "long_name": "Mace Head, County Galway, Ireland",
-      "longitude": -9.899
+      "longitude": -9.90456
     }
   },
   "MID": {
@@ -2429,26 +2429,26 @@
     "DECC": {
       "height": ["90m", "45m"],
       "height_name": ["90magl", "45magl"],
-      "height_station_masl": 200.0,
-      "latitude": 51.997435,
+      "height_station_masl": 207,
+      "latitude": 51.99738,
       "long_name": "Ridge Hill, UK",
-      "longitude": -2.5399
+      "longitude": -2.53977
     },
     "ICOS": {
       "height": ["90m", "45m"],
       "height_name": ["90magl", "45magl"],
-      "height_station_masl": 200.0,
-      "latitude": 51.997435,
+      "height_station_masl": 207,
+      "latitude": 51.99738,
       "long_name": "Ridge Hill, UK",
-      "longitude": -2.5399
+      "longitude": -2.53977
     },
     "NOAA": {
       "height": ["90m", "45m"],
       "height_name": ["90magl", "45magl"],
-      "height_station_masl": 200.0,
-      "latitude": 51.997435,
+      "height_station_masl": 207,
+      "latitude": 51.99738,
       "long_name": "Ridge Hill, UK",
-      "longitude": -2.5399
+      "longitude": -2.53977
     }
   },
   "RHL": {
@@ -2474,17 +2474,17 @@
     "AGAGE": {
       "height": ["10m"],
       "height_name": ["10magl"],
-      "height_station_masl": 32.0,
-      "latitude": 13.16512,
+      "height_station_masl": 14,
+      "latitude": 13.16504,
       "long_name": "Ragged Point, Barbados",
-      "longitude": -59.43208,
+      "longitude": -59.43213,
       "w3w": "///munched.brimmed.elect"
     },
     "NOAA": {
-      "height_station_masl": 15.0,
-      "latitude": 13.165,
+      "height_station_masl": 14,
+      "latitude": 13.16504,
       "long_name": "Ragged Point, Barbados",
-      "longitude": -59.432
+      "longitude": -59.43213
     }
   },
   "RTA": {
@@ -2832,16 +2832,16 @@
     "DECC": {
       "height": ["185m", "54m", "100m"],
       "height_name": ["185magl", "50magl", "100magl"],
-      "height_station_masl": 50.0,
-      "latitude": 52.51775,
+      "height_station_masl": 64,
+      "latitude": 52.51811,
       "long_name": "Tacolneston Tower, UK",
-      "longitude": 1.13872
+      "longitude": 1.13847
     },
     "NOAA": {
-      "height_station_masl": 56.0,
-      "latitude": 52.5177,
+      "height_station_masl": 64,
+      "latitude": 52.51811,
       "long_name": "Tacolneston, United Kingdom",
-      "longitude": 1.1386
+      "longitude": 1.13847
     }
   },
   "TAO": {
@@ -3039,18 +3039,18 @@
     "DECC": {
       "height": ["222m"],
       "height_name": ["222magl"],
-      "height_station_masl": 300.0,
-      "latitude": 56.55511,
+      "height_station_masl": 315,
+      "latitude": 56.55519,
       "long_name": "Angus Tower, UK",
-      "longitude": -2.98598
+      "longitude": -2.98604
     },
     "ICOS": {
       "height": ["222m"],
       "height_name": ["222magl"],
-      "height_station_masl": 300.0,
-      "latitude": 56.55511,
+      "height_station_masl": 315,
+      "latitude": 56.55519,
       "long_name": "Angus Tower, UK",
-      "longitude": -2.98598
+      "longitude": -2.98604
     }
   },
   "ULB": {
