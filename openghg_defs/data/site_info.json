@@ -559,6 +559,16 @@
       "longitude": 161.5313
     }
   },
+  "CIAO": {
+    "CNR": {
+      "height_station_masl": 760,
+      "height": ["50m"],
+      "height_name": ["50magl"],
+      "latitude": 40.60100,
+      "long_name": "CNR-IMAA Atmospheric Observatory",
+      "longitude": 15.72369
+    }
+  },
   "CIB": {
     "NOAA": {
       "height_station_masl": 845.0,
@@ -787,6 +797,16 @@
       "longitude": -79.4369,
       "height": ["277m"],
       "height_name": ["277masl"]
+    }
+  },
+  "ECO": {
+    "CNR": {
+      "height_station_masl": 36,
+      "latitude": 40.3358,
+      "longitude": 18.1245,
+      "height": ["5m"],
+      "height_name": ["5m"],
+      "long_name": "Lecce, Italy"
     }
   },
   "EGB": {
@@ -1304,6 +1324,14 @@
     }
   },
   "HTM": {
+    "ICOS": {
+      "latitude": 56.0976,
+      "longitude": 13.4189,
+      "height_station_masl": 115.0,
+      "long_name": "Hyltemossa, Sweden",
+      "height": ["150m"],
+      "height_name": ["150magl"]
+    },
     "NOAA": {
       "latitude": 56.0976,
       "longitude": 13.4189,
@@ -1592,6 +1620,14 @@
     }
   },
   "KRE": {
+    "ICOS": {
+      "latitude": 49.572,
+      "longitude": 15.08,
+      "height_station_masl": 534.0,
+      "long_name": "Kresin u Pacova, Czech Republic",
+      "height": ["250m"],
+      "height_name": ["250magl"]
+    },
     "NOAA": {
       "latitude": 49.583,
       "longitude": 15.083,
@@ -2761,6 +2797,16 @@
       "longitude": -35.0
     }
   },
+  "STE": {
+    "ICOS": {
+      "height_station_masl": 29.0,
+      "height": ["252m"],
+      "height_name": ["252magl"],
+      "latitude": 53.0431,
+      "long_name": "Steinkimmen, Germany",
+      "longitude": 8.4588
+    }
+  },
   "STJ": {
     "LGHG": {
       "height_name": ["20magl"],
@@ -3108,6 +3154,16 @@
       "latitude": 44.452,
       "long_name": "Ulaan Uul, Mongolia",
       "longitude": 111.096
+    }
+  },
+  "VGR": {
+    "CNR": {
+      "height": ["5m"],
+      "height_name": ["5magl"],
+      "height_station_masl": 5.0,
+      "latitude": 37.57111,
+      "long_name": "Cape Granitola, Italy",
+      "longitude": 12.65972
     }
   },
   "WAO": {
