@@ -456,9 +456,9 @@
       "height": ["120m", "20m", "60m", "200m"],
       "height_name": ["120magl", "20magl", "60magl", "200magl"],
       "height_station_masl": 213.0,
-      "latitude": 58.97,
+      "latitude": 51.9703,
       "long_name": "Cabauw Tower, Netherlands",
-      "longitude": -4.926
+      "longitude": 4.926
     }
   },
   "CBY": {
