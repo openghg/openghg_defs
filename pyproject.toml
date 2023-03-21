@@ -21,3 +21,31 @@ where = ["."]
 "openghg_defs.data" = ["*"]
 "openghg_defs.data.domain" = ["*"]
 
+[tool.ruff]
+line-length = 110
+update-check = false
+target-version = "py38"
+
+exclude = ["__init__.py"]
+
+[tool.black]
+line-length = 110
+target-version = ['py38', 'py39']
+required-version = '23.1.0'
+exclude = '''
+(
+    asv_bench/env
+  | \.egg
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.nox
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+  | setup.py
+)
+'''

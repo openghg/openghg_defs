@@ -1,7 +1,8 @@
 import warnings as _warnings
 
-from ._load import load_domain_info, load_internal_json, load_site_info, load_species_info
-from ._paths import get_domain_path, get_datapath
+from ._load import (load_domain_info, load_internal_json, load_site_info,
+                    load_species_info)
+from ._paths import get_datapath, get_domain_path
 
 _warnings.warn(
     message="Direct access to filepaths will be removed in the next release."

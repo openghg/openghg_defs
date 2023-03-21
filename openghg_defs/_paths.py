@@ -9,7 +9,8 @@ def get_domain_path(filename: str) -> Path:
     Returns:
         Path: Filepath
     """
-    return get_datapath().joinpath("domain", filename)
+    return Path(__file__).parent.resolve().joinpath("data", "domain", filename)
+
 
 def get_datapath(filename: str) -> Path:
     """Return the full path to a file in the internal openghg_defs data folder
