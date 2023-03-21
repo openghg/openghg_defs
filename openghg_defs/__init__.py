@@ -10,6 +10,7 @@ _warnings.warn(
 )
 del _warnings
 
+data_path = get_datapath(filename="unused").parent
 species_info_file = get_datapath(filename="species_info.json")
 site_info_file = get_datapath(filename="site_info.json")
 domain_info_file = get_datapath(filename="domain_info.json")
