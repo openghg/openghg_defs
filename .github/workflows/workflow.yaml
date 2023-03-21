@@ -64,6 +64,7 @@ jobs:
         with:
           python-version: 3.9
           cache: 'pip'
+          cache-dependency-path: "requirements-dev.txt"
       - name: Install pypa/build
         run: |
           pip install --upgrade build wheel
