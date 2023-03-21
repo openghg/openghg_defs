@@ -51,6 +51,20 @@ In [2]: fpath
 Out[2]: PosixPath('/home/gareth/Documents/Devel/supplementary_data/openghg_defs/data/site_info.json')
 ```
 
-### Deprecated functionality
+## Deprecated functionality
 
 Version 0.0.1 of `openghg_defs` exposed paths to the JSON files storing the metadata. These are now deprecated and will be removed in a future version.
+
+## Creating a release
+
+Using GitHub actions it's easy to create a new release of the package. Submit a PR to the `main` branch
+and make sure all checks are passing before merging. Ensure the PR has been reviewed by at least one other person.
+Merge the PR to `main` and then run the steps below. Making **sure** you update the version number, following [semver](https://semver.org/) for the numbering. Replace x.x.x with the correct version number in the example below.
+
+```bash
+git checkout main
+git pull
+git tag -a x.x.x -m "openghg_defs release vx.x.x" && git push origin x.x.x
+```
+
+Then check the [GitHub actions page](https://github.com/openghg/supplementary_data/actions) and make sure it's running, you should see the tag you've given the release in blue. Give it time to complete and then check the [PyPI page](https://pypi.org/project/openghg-defs/).
