@@ -3168,25 +3168,27 @@
   },
   "WAO": {
     "ICOS": {
-      "height": ["21m"],
+      "height": ["10m"],
       "height_name": ["20magl"],
-      "height_station_masl": 10.0,
-      "latitude": 52.95042,
-      "long_name": "Weybourne Observatory, UK",
-      "longitude": 1.12194
+      "height_station_masl": 17.0,
+      "latitude": 52.95,
+      "long_name": "WAO",
+      "longitude": 1.121,
+      "reference": "https://meta.icos-cp.eu/resources/stations/AS_WAO",
+      "comments": "05/01/2023: Station elevation of 31m may be included within ICOS header but value above of 17m is more recently agreed upon value and should be correct."
     },
     "UCAM": {
-      "height": ["21m"],
+      "height": ["10m"],
       "height_name": ["20magl"],
-      "height_station_masl": 10.0,
+      "height_station_masl": 17.0,
       "latitude": 52.95042,
       "long_name": "Weybourne Observatory, UK",
       "longitude": 1.12194
     },
     "UEA": {
-      "height": ["21m"],
+      "height": ["10m"],
       "height_name": ["20magl"],
-      "height_station_masl": 10.0,
+      "height_station_masl": 17.0,
       "latitude": 52.95042,
       "long_name": "Weybourne Observatory, UK",
       "longitude": 1.12194
