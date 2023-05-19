@@ -1,0 +1,12 @@
+name: Add metadata
+description: Add some missing metadata
+title: "[Add]: "
+labels: ["metadata", "triage"]
+body:
+  - type: textarea
+    id: to-add
+    attributes:
+      label: What's missing?
+      description: What's missing and what needs adding?
+    validations:
+      required: true
