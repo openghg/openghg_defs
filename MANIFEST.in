@@ -1,0 +1,9 @@
+include README.md
+include MANIFEST.in
+include setup.py
+include py.typed
+
+graft openghg_defs
+
+include versioneer.py
+include openghg_defs/_version.py
