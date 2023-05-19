@@ -10,7 +10,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     version=versioneer.get_version(),
-    name="openghg",
+    name="openghg_defs",
     author="Gareth Jones",
     author_email="g.m.jones@bristol.ac.uk",
     description="OpenGHG supplementary metadata",
