@@ -227,7 +227,8 @@
     }
   },
   "BCOB": {
-    "AGAGE": {"height": ["10m"],
+    "AGAGE": {
+      "height": ["10m"],
       "height_name": ["10magl"],
       "height_station_masl": 0.0,
       "latitude": 22.17,
@@ -267,10 +268,18 @@
     "ICOS": {
       "height": ["10m"],
       "height_name": ["10magl"],
-      "height_station_masl": 190.0,
-      "latitude": 58.39,
+      "height_station_masl": 219.0,
+      "latitude": 58.3886,
       "long_name": "Birkenes Observatory, Norway",
-      "longitude": 8.25
+      "longitude": 8.2519
+    },
+    "ICOS": {
+      "height": ["75m"],
+      "height_name": ["75magl"],
+      "height_station_masl": 219.0,
+      "latitude": 58.3886,
+      "long_name": "Birkenes Observatory, Norway",
+      "longitude": 8.2519
     }
   },
   "BKT": {
@@ -341,6 +350,16 @@
       "long_name": "Bratt's Lake Saskatchewan, Canada",
       "height": ["35m"],
       "height_name": ["35magl"]
+    }
+  },
+  "BRM": {
+    "ICOS": {
+      "height": ["212m"],
+      "height_name": ["212magl"],
+      "height_station_masl": 797.0,
+      "latitude": 47.1896,
+      "long_name": "Beromunster",
+      "longitude": 8.1755
     }
   },
   "BRW": {
@@ -602,12 +621,12 @@
       "longitude": 10.701389
     },
     "ICOS": {
-      "height": ["10m"],
-      "height_name": ["10magl"],
-      "height_station_masl": 2155.0,
-      "latitude": 44.193889,
+      "height": ["8m"],
+      "height_name": ["500magl"],
+      "height_station_masl": 2165.0,
+      "latitude": 44.1936,
       "long_name": "Monte Cimone, Italy",
-      "longitude": 10.701389
+      "longitude": 10.6999
     },
     "NOAA": {
       "latitude": 44.1936,
@@ -978,6 +997,22 @@
     }
   },
   "GAT": {
+    "ICOS": {
+      "latitude": 53.0657,
+      "longitude": 11.4429,
+      "height_station_masl": 70.0,
+      "long_name": "Gartow, Germany",
+      "height": ["132m"],
+      "height_name": ["132magl"]
+    },
+    "ICOS": {
+      "latitude": 53.0657,
+      "longitude": 11.4429,
+      "height_station_masl": 70.0,
+      "long_name": "Gartow, Germany",
+      "height": ["341m"],
+      "height_name": ["341magl"]
+    },
     "NOAA": {
       "latitude": 53.0657,
       "longitude": 11.4429,
@@ -1226,10 +1261,10 @@
     "ICOS": {
       "height": ["30m"],
       "height_name": ["30magl"],
-      "height_station_masl": 116.0,
-      "latitude": 49.417,
+      "height_station_masl": 113.0,
+      "latitude": 49.4172,
       "long_name": "Heidelberg, Germany",
-      "longitude": 8.674
+      "longitude": 8.675
     }
   },
   "HEL": {
@@ -1346,9 +1381,9 @@
       "height": ["115m"],
       "height_name": ["115magl"],
       "height_station_masl": 248.0,
-      "latitude": 46.95,
+      "latitude": 46.9558,
       "long_name": "Hegyhatsal, Hungary",
-      "longitude": 16.65
+      "longitude": 16.6522
     },
     "NOAA": {
       "height_station_masl": 248.0,
@@ -1553,12 +1588,12 @@
       "longitude": 7.98498
     },
     "ICOS": {
-      "height": ["10m"],
-      "height_name": ["10magl"],
-      "height_station_masl": 3528,
-      "latitude": 46.54753,
+      "height": ["5m"],
+      "height_name": ["1000magl"],
+      "height_station_masl": 3580,
+      "latitude": 46.5475,
       "long_name": "Jungfraujoch, Switzerland",
-      "longitude": 7.98498
+      "longitude": 7.9851
     },
     "NOAA": {
       "latitude": 46.54753,
@@ -1585,6 +1620,16 @@
       "latitude": 25.6654,
       "long_name": "Key Biscane, Florida",
       "longitude": -80.158
+    }
+  },
+  "KIT": {
+    "ICOS": {
+      "height": ["200m"],
+      "height_name": ["200magl"],
+      "height_station_masl": 110.0,
+      "latitude": 49.0915,
+      "long_name": "Karlsruhe, Germany",
+      "longitude": 8.4249
     }
   },
   "KJN": {
@@ -1815,9 +1860,9 @@
       "height": ["60m"],
       "height_name": ["60magl"],
       "height_station_masl": 1.0,
-      "latitude": 53.404,
+      "latitude": 53.4036,
       "long_name": "Lutjewad, Netherlands",
-      "longitude": 6.353
+      "longitude": 6.3528
     },
     "NOAA": {
       "latitude": 53.4037,
@@ -2103,6 +2148,14 @@
     }
   },
   "NOR": {
+    "ICOS": {
+      "latitude": 60.0864,
+      "longitude": 17.4794,
+      "height_station_masl": 46.0,
+      "long_name": "Norunda, Sweden",
+      "height": ["100m"],
+      "height_name": ["100magl"]
+    },
     "NOAA": {
       "latitude": 60.0864,
       "longitude": 17.4794,
@@ -2192,9 +2245,9 @@
       "height": ["120m"],
       "height_name": ["120magl"],
       "height_station_masl": 390.0,
-      "latitude": 48.562,
+      "latitude": 48.5619,
       "long_name": "Observatoire Perenne de l'Environnement, France",
-      "longitude": 5.504
+      "longitude": 5.5036
     },
     "NOAA": {
       "latitude": 48.5619,
@@ -2238,19 +2291,27 @@
       "height": ["10m"],
       "height_name": ["10magl"],
       "height_station_masl": 1022.0,
-      "latitude": 50.0301,
+      "latitude": 50.03,
       "long_name": "Ochsenkopf, Germany",
-      "longitude": 11.8084
+      "longitude": 11.8083
+    },
+    "ICOS": {
+      "height": ["163m"],
+      "height_name": ["163magl"],
+      "height_station_masl": 1022.0,
+      "latitude": 50.03,
+      "long_name": "Ochsenkopf, Germany",
+      "longitude": 11.8083
     }
   },
   "PAL": {
     "ICOS": {
-      "height": ["5m"],
-      "height_name": ["5magl"],
+      "height": ["12m"],
+      "height_name": ["10magl"],
       "height_station_masl": 565.0,
-      "latitude": 67.973,
+      "latitude": 67.9733,
       "long_name": "Pallas, Finland",
-      "longitude": 24.116
+      "longitude": 24.1157
     },
     "NOAA": {
       "height_station_masl": 565.0,
@@ -2746,6 +2807,16 @@
       "longitude": -170.5644
     }
   },
+  "SMR": {
+    "ICOS": {
+      "height": ["125m"],
+      "height_name": ["125magl"],
+      "height_station_masl": 181.0,
+      "latitude": 61.8474,
+      "long_name": "Hyytiala, Finland",
+      "longitude": 24.2947
+    }
+  },
   "SNG": {
     "IITM": {
       "height": ["10m"],
@@ -2784,9 +2855,9 @@
       "height": ["12m"],
       "height_name": ["12magl"],
       "height_station_masl": 1205.0,
-      "latitude": 47.92,
+      "latitude": 47.9167,
       "long_name": "Schauinsland, Germany",
-      "longitude": 7.92
+      "longitude": 7.9166
     }
   },
   "STC": {
@@ -3014,9 +3085,9 @@
       "height": ["12m"],
       "height_name": ["12magl"],
       "height_station_masl": 825.0,
-      "latitude": 50.221884,
+      "latitude": 50.22188,
       "long_name": "Taunus, Germany",
-      "longitude": 8.446397
+      "longitude": 8.44639
     }
   },
   "TOH": {
@@ -3068,9 +3139,9 @@
       "height": ["180m"],
       "height_name": ["180magl"],
       "height_station_masl": 131.0,
-      "latitude": 47.965,
+      "latitude": 47.9647,
       "long_name": "Trainou, France",
-      "longitude": 2.112
+      "longitude": 2.1125
     },
     "NOAA": {
       "latitude": 47.9647,
@@ -3137,6 +3208,14 @@
     }
   },
   "UTO": {
+    "ICOS": {
+      "latitude": 59.7839,
+      "longitude": 21.3672,
+      "height_station_masl": 8.0,
+      "long_name": "Uto, Finland",
+      "height": ["57m"],
+      "height_name": ["57magl"]
+    },
     "NOAA": {
       "latitude": 59.7839,
       "longitude": 21.3672,
@@ -3206,12 +3285,8 @@
   },
   "WES": {
     "ICOS": {
-      "height": [
-        "14m"
-      ],
-      "height_name": [
-        "14magl"
-      ],
+      "height": ["14m"],
+      "height_name": ["14magl"],
       "height_station_masl": 12.0,
       "latitude": 54.9231,
       "long_name": "Westerland, Germany",
@@ -3417,12 +3492,20 @@
   },
   "ZEP": {
     "AGAGE": {
-      "height": ["10m"],
-      "height_name": ["16magl"],
+      "height": ["12m"],
+      "height_name": ["10magl"],
       "height_station_masl": 474.0,
       "latitude": 78.925,
       "long_name": "Zeppelin, Ny Alesund, Norway",
       "longitude": 11.92222
+    },
+    "ICOS": {
+      "height": ["15m"],
+      "height_name": ["10magl"],
+      "height_station_masl": 474.0,
+      "latitude": 78.9072,
+      "long_name": "Ny-Alesund, Svalbard, Norway and Sweden",
+      "longitude": 11.8867
     },
     "NOAA": {
       "height_station_masl": 474.0,
