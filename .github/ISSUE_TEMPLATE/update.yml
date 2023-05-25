@@ -1,0 +1,11 @@
+name: Update metadata
+description: Update some incorrect metadata
+title: "[Update]: "
+labels: ["metadata", "triage"]
+body:
+  - type: textarea
+    id: to-add
+    attributes:
+      label: What needs updating?
+    validations:
+      required: true
