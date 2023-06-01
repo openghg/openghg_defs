@@ -474,7 +474,7 @@
     "ECN": {
       "height": ["120m", "20m", "60m", "200m"],
       "height_name": ["120magl", "20magl", "60magl", "200magl"],
-      "height_station_masl": 213.0,
+      "height_station_masl": 0.0,
       "latitude": 51.9703,
       "long_name": "Cabauw Tower, Netherlands",
       "longitude": 4.9261
@@ -1590,7 +1590,7 @@
     },
     "ICOS": {
       "height": ["5m"],
-      "height_name": ["1000magl"],
+      "height_name": ["5magl"],
       "height_station_masl": 3580,
       "latitude": 46.5475,
       "long_name": "Jungfraujoch, Switzerland",
@@ -1599,7 +1599,7 @@
     "NOAA": {
       "latitude": 46.54753,
       "longitude": 7.98498,
-      "height_station_masl": 3528,
+      "height_station_masl": 3580,
       "long_name": "Jungfraujoch, Switzerland",
       "height": ["5m"],
       "height_name": ["5magl"]
@@ -3249,7 +3249,7 @@
   "VAL": {
     "ICOS": {
 	  "height": ["10m"],
-	  "height_name": ["10magl"]
+	  "height_name": ["10magl"],
 	  "latitude":  51.908,
 	  "longitude": -10.403, 
 	  "long_name": "Valentia, Ireland"
