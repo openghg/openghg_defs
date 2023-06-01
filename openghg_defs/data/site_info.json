@@ -396,17 +396,17 @@
       "height": ["248m", "108m", "42m"],
       "height_name": ["248magl", "110magl", "50magl"],
       "height_station_masl": 382,
-      "latitude": 54.35846,
+      "latitude": 54.3586,
       "long_name": "Bilsdale, UK",
-      "longitude": -1.15018
+      "longitude": -1.1504
     },
      "NOAA": {
       "height": ["108m", "42m", "248m"],
       "height_name": ["110magl", "50magl", "248magl"],
       "height_station_masl": 382,
-      "latitude": 54.35846,
+      "latitude": 54.3586,
       "long_name": "Bilsdale, UK",
-      "longitude": -1.15018
+      "longitude": -1.1504
     }
   },
   "BTT": {
@@ -477,7 +477,7 @@
       "height_station_masl": 213.0,
       "latitude": 51.9703,
       "long_name": "Cabauw Tower, Netherlands",
-      "longitude": 4.926
+      "longitude": 4.9261
     }
   },
   "CBY": {
@@ -681,13 +681,14 @@
       "height_name": ["6magl"]
     }
   },
-  "CPI": {
+  "CSP": {
     "ICOS": {
-      "latitude": 52.17,
-      "longitude": -6.35,
+      "latitude": 52.1775,
+      "longitude": -6.3677,
       "height_station_masl": 9.0,
-      "long_name": "Carnsore Point, Ireland",
-      "icos_sitecode": "CSP"
+      "height": ["10m"],
+      "height_name": ["10magl"],
+      "long_name": "Carnsore Point, Ireland"
     }
   },
   "CPS": {
@@ -1282,17 +1283,17 @@
       "height": ["100m", "50m"],
       "height_name": ["100magl", "50magl"],
       "height_station_masl": 158,
-      "latitude": 50.97661,
+      "latitude": 50.9768,
       "long_name": "Heathfield, UK",
-      "longitude": 0.23042
+      "longitude": 0.2305
     },
     "GAUGE": {
       "height": ["100m", "50m"],
       "height_name": ["100magl", "50magl"],
       "height_station_masl": 158,
-      "latitude": 50.97661,
+      "latitude": 50.9768,
       "long_name": "Heathfield, UK",
-      "longitude": 0.23042
+      "longitude": 0.2305
     }
   },
   "HFM": {
@@ -1944,17 +1945,17 @@
       "height": ["10m"],
       "height_name": ["10magl"],
       "height_station_masl": 8.0,
-      "latitude": 53.32663,
+      "latitude": 53.3267,
       "long_name": "Mace Head, Ireland",
-      "longitude": -9.90456
+      "longitude": -9.9046
     },
     "ICOS": {
       "height": ["10m"],
       "height_name": ["10magl"],
       "height_station_masl": 8.0,
-      "latitude": 53.32663,
+      "latitude": 53.3267,
       "long_name": "Mace Head, Ireland",
-      "longitude": -9.90456
+      "longitude": -9.9046
     },
     "NOAA": {
       "height_station_masl": 8.0,
@@ -1994,6 +1995,16 @@
       "long_name": "Mauna Loa, Hawaii, United States",
       "longitude": -155.58
     }
+  },
+  "MLH": {
+    "ICOS": {
+      "height": ["10m"],
+      "height_name": ["10magl"],
+      "height_station_masl": 22.0,
+      "latitude": 55.3718,
+      "long_name": "Mace Head, Ireland",
+      "longitude": -7.3395
+	}
   },
   "MLO": {
     "NOAA": {
@@ -2527,25 +2538,25 @@
       "height": ["90m", "45m"],
       "height_name": ["90magl", "45magl"],
       "height_station_masl": 207,
-      "latitude": 51.99738,
+      "latitude": 51.9975,
       "long_name": "Ridge Hill, UK",
-      "longitude": -2.53977
+      "longitude": -2.5399
     },
     "ICOS": {
       "height": ["90m", "45m"],
       "height_name": ["90magl", "45magl"],
       "height_station_masl": 207,
-      "latitude": 51.99738,
+      "latitude": 51.9975,
       "long_name": "Ridge Hill, UK",
-      "longitude": -2.53977
+      "longitude": -2.5399
     },
     "NOAA": {
       "height": ["90m", "45m"],
       "height_name": ["90magl", "45magl"],
       "height_station_masl": 207,
-      "latitude": 51.99738,
+      "latitude": 51.9975,
       "long_name": "Ridge Hill, UK",
-      "longitude": -2.53977
+      "longitude": -2.5399
     }
   },
   "RHL": {
@@ -2950,15 +2961,15 @@
       "height": ["185m", "54m", "100m"],
       "height_name": ["185magl", "50magl", "100magl"],
       "height_station_masl": 64,
-      "latitude": 52.51811,
+      "latitude": 52.5188,
       "long_name": "Tacolneston Tower, UK",
-      "longitude": 1.13847
+      "longitude": 1.1387
     },
     "NOAA": {
       "height_station_masl": 64,
       "latitude": 52.51811,
       "long_name": "Tacolneston, United Kingdom",
-      "longitude": 1.13847
+      "longitude": 1.1387
     }
   },
   "TAO": {
@@ -3157,17 +3168,17 @@
       "height": ["222m"],
       "height_name": ["222magl"],
       "height_station_masl": 315,
-      "latitude": 56.55519,
+      "latitude": 56.5551,
       "long_name": "Angus Tower, UK",
-      "longitude": -2.98604
+      "longitude": -2.9860
     },
     "ICOS": {
       "height": ["222m"],
       "height_name": ["222magl"],
       "height_station_masl": 315,
-      "latitude": 56.55519,
+      "latitude": 56.5551,
       "long_name": "Angus Tower, UK",
-      "longitude": -2.98604
+      "longitude": -2.9860
     }
   },
   "ULB": {
@@ -3235,6 +3246,15 @@
       "longitude": 111.096
     }
   },
+  "VAL": {
+    "ICOS": {
+	  "height": ["10m"],
+	  "height_name": ["10magl"]
+	  "latitude":  51.908,
+	  "longitude": -10.403, 
+	  "long_name": "Valentia, Ireland"
+	}
+  },
   "VGR": {
     "CNR": {
       "height": ["5m"],
@@ -3250,9 +3270,9 @@
       "height": ["10m"],
       "height_name": ["20magl"],
       "height_station_masl": 17.0,
-      "latitude": 52.95,
+      "latitude": 52.9504,
       "long_name": "WAO",
-      "longitude": 1.121,
+      "longitude": 1.1219,
       "reference": "https://meta.icos-cp.eu/resources/stations/AS_WAO",
       "comments": "05/01/2023: Station elevation of 31m may be included within ICOS header but value above of 17m is more recently agreed upon value and should be correct."
     },
@@ -3260,17 +3280,17 @@
       "height": ["10m"],
       "height_name": ["20magl"],
       "height_station_masl": 17.0,
-      "latitude": 52.95042,
+      "latitude": 52.9504,
       "long_name": "Weybourne Observatory, UK",
-      "longitude": 1.12194
+      "longitude": 1.1219
     },
     "UEA": {
       "height": ["10m"],
       "height_name": ["20magl"],
       "height_station_masl": 17.0,
-      "latitude": 52.95042,
+      "latitude": 52.9504,
       "long_name": "Weybourne Observatory, UK",
-      "longitude": 1.12194
+      "longitude": 1.1219
     }
   },
   "WBI": {
