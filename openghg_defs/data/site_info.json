@@ -2852,8 +2852,8 @@
   },
   "SSL": {
     "ICOS": {
-      "height": ["12m"],
-      "height_name": ["12magl"],
+      "height": ["12m", "35m"],
+      "height_name": ["12magl", "35magl"],
       "height_station_masl": 1205.0,
       "latitude": 47.9167,
       "long_name": "Schauinsland, Germany",
