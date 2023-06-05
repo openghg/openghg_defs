@@ -3533,5 +3533,14 @@
       "long_name": "Ny-Alesund, Svalbard, Norway and Sweden",
       "longitude": 11.8883
     }
+  },
+  "ZSF": {
+	"ICOS": {
+	  "height_station_masl": 2666,
+	  "latitude": 47.4165,
+	  "longitude": 10.97964,
+	  "height": {"3m"},
+	  "height_name": ["3magl"]
+	}
   }
 }
