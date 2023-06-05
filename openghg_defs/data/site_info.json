@@ -3539,8 +3539,9 @@
 	  "height_station_masl": 2666,
 	  "latitude": 47.4165,
 	  "longitude": 10.97964,
-	  "height": {"3m"},
-	  "height_name": ["3magl"]
+	  "height": ["3m"],
+	  "height_name": ["3magl"],
+	  "long_name": "Zugspitze Schneefernerhaus"
 	}
   }
 }
