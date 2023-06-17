@@ -686,6 +686,7 @@
       "latitude": 52.1775,
       "longitude": -6.3677,
       "height_station_masl": 9.0,
+      "height": ["10m"],
       "height_name": ["10magl"],
       "long_name": "Carnsore Point, Ireland"
     }
@@ -1987,6 +1988,16 @@
       "longitude": -155.58
     }
   },
+  "MLH": {
+    "ICOS": {
+      "height": ["10m"],
+      "height_name": ["10magl"],
+      "height_station_masl": 22.0,
+      "latitude": 55.3718,
+      "long_name": "Malin Head, Ireland",
+      "longitude": -7.3395
+	}
+  },
   "MLO": {
     "NOAA": {
       "height": ["10m"],
@@ -3227,6 +3238,15 @@
       "longitude": 111.096
     }
   },
+  "VAL": {
+    "ICOS": {
+	  "height": ["10m"],
+	  "height_name": ["10magl"],
+	  "latitude":  51.908,
+	  "longitude": -10.403, 
+	  "long_name": "Valentia, Ireland"
+    }
+  },
   "VGR": {
     "CNR": {
       "height": ["5m"],
@@ -3505,5 +3525,15 @@
       "long_name": "Ny-Alesund, Svalbard, Norway and Sweden",
       "longitude": 11.8883
     }
+  },
+  "ZSF": {
+	"ICOS": {
+	  "height_station_masl": 2666,
+	  "latitude": 47.4165,
+	  "longitude": 10.97964,
+	  "height": ["3m"],
+	  "height_name": ["3magl"],
+	  "long_name": "Zugspitze Schneefernerhaus"
+	}
   }
 }
