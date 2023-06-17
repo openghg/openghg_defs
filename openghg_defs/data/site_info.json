@@ -266,16 +266,8 @@
   },
   "BIR": {
     "ICOS": {
-      "height": ["10m"],
-      "height_name": ["10magl"],
-      "height_station_masl": 219.0,
-      "latitude": 58.3886,
-      "long_name": "Birkenes Observatory, Norway",
-      "longitude": 8.2519
-    },
-    "ICOS": {
-      "height": ["75m"],
-      "height_name": ["75magl"],
+      "height": ["10m", "75m"],
+      "height_name": ["10magl", "75magl"],
       "height_station_masl": 219.0,
       "latitude": 58.3886,
       "long_name": "Birkenes Observatory, Norway",
@@ -1003,16 +995,8 @@
       "longitude": 11.4429,
       "height_station_masl": 70.0,
       "long_name": "Gartow, Germany",
-      "height": ["132m"],
-      "height_name": ["132magl"]
-    },
-    "ICOS": {
-      "latitude": 53.0657,
-      "longitude": 11.4429,
-      "height_station_masl": 70.0,
-      "long_name": "Gartow, Germany",
-      "height": ["341m"],
-      "height_name": ["341magl"]
+      "height": ["132", "341m"],
+      "height_name": ["132", "341magl"]
     },
     "NOAA": {
       "latitude": 53.0657,
