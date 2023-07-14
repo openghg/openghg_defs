@@ -1,3 +1,7 @@
-from setuptools import setup
+import setuptools
+import toml
 
-setup()
+with open("pyproject.toml") as f:
+    data = toml.load(f)
+
+setuptools.setup(version=data["project"]["version"])
