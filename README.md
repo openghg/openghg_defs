@@ -1,6 +1,6 @@
 # openghg_defs
 
-This repository contains the supplementary information / metadata used by the OpenGHG project.
+This repository contains the supplementary information / metadata around site, species and domain details. This is used within the OpenGHG project.
 
 ## Installation
 
