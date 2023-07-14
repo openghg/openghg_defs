@@ -1,15 +1,11 @@
 # type: ignore
-import sys
 import setuptools
-
-sys.path.insert(0, ".")  # noqa
-import versioneer  # noqa
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    version=versioneer.get_version(),
+    version="0.0.2",
     name="openghg_defs",
     author="Gareth Jones",
     author_email="g.m.jones@bristol.ac.uk",
