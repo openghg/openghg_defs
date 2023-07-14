@@ -227,7 +227,8 @@
     }
   },
   "BCOB": {
-    "AGAGE": {"height": ["10m"],
+    "AGAGE": {
+      "height": ["10m"],
       "height_name": ["10magl"],
       "height_station_masl": 0.0,
       "latitude": 22.17,
@@ -265,12 +266,12 @@
   },
   "BIR": {
     "ICOS": {
-      "height": ["10m"],
-      "height_name": ["10magl"],
-      "height_station_masl": 190.0,
-      "latitude": 58.39,
+      "height": ["10m", "75m"],
+      "height_name": ["10magl", "75magl"],
+      "height_station_masl": 219.0,
+      "latitude": 58.3886,
       "long_name": "Birkenes Observatory, Norway",
-      "longitude": 8.25
+      "longitude": 8.2519
     }
   },
   "BKT": {
@@ -343,6 +344,16 @@
       "height_name": ["35magl"]
     }
   },
+  "BRM": {
+    "ICOS": {
+      "height": ["212m"],
+      "height_name": ["212magl"],
+      "height_station_masl": 797.0,
+      "latitude": 47.1896,
+      "long_name": "Beromunster",
+      "longitude": 8.1755
+    }
+  },
   "BRW": {
     "NOAA": {
       "height": ["17m", "11m", "5m"],
@@ -375,19 +386,19 @@
         }
       ],
       "height": ["248m", "108m", "42m"],
-      "height_name": ["248magl", "110magl", "50magl"],
+      "height_name": ["248magl", "108magl", "42magl"],
       "height_station_masl": 382,
-      "latitude": 54.35846,
+      "latitude": 54.35861,
       "long_name": "Bilsdale, UK",
-      "longitude": -1.15018
+      "longitude": -1.15036
     },
      "NOAA": {
       "height": ["108m", "42m", "248m"],
-      "height_name": ["110magl", "50magl", "248magl"],
+      "height_name": ["108magl", "42magl", "248magl"],
       "height_station_masl": 382,
-      "latitude": 54.35846,
+      "latitude": 54.35861,
       "long_name": "Bilsdale, UK",
-      "longitude": -1.15018
+      "longitude": -1.15036
     }
   },
   "BTT": {
@@ -458,7 +469,7 @@
       "height_station_masl": 213.0,
       "latitude": 51.9703,
       "long_name": "Cabauw Tower, Netherlands",
-      "longitude": 4.926
+      "longitude": 4.9264
     }
   },
   "CBY": {
@@ -602,12 +613,12 @@
       "longitude": 10.701389
     },
     "ICOS": {
-      "height": ["10m"],
-      "height_name": ["10magl"],
-      "height_station_masl": 2155.0,
-      "latitude": 44.193889,
+      "height": ["8m"],
+      "height_name": ["500magl"],
+      "height_station_masl": 2165.0,
+      "latitude": 44.1936,
       "long_name": "Monte Cimone, Italy",
-      "longitude": 10.701389
+      "longitude": 10.6999
     },
     "NOAA": {
       "latitude": 44.1936,
@@ -662,13 +673,14 @@
       "height_name": ["6magl"]
     }
   },
-  "CPI": {
+  "CRP": {
     "ICOS": {
-      "latitude": 52.17,
-      "longitude": -6.35,
+      "latitude": 52.1775,
+      "longitude": -6.3677,
       "height_station_masl": 9.0,
-      "long_name": "Carnsore Point, Ireland",
-      "icos_sitecode": "CSP"
+      "height": ["10m"],
+      "height_name": ["10magl"],
+      "long_name": "Carnsore Point, Ireland"
     }
   },
   "CPS": {
@@ -978,6 +990,14 @@
     }
   },
   "GAT": {
+    "ICOS": {
+      "latitude": 53.0657,
+      "longitude": 11.4429,
+      "height_station_masl": 70.0,
+      "long_name": "Gartow, Germany",
+      "height": ["132", "341m"],
+      "height_name": ["132", "341magl"]
+    },
     "NOAA": {
       "latitude": 53.0657,
       "longitude": 11.4429,
@@ -1226,10 +1246,10 @@
     "ICOS": {
       "height": ["30m"],
       "height_name": ["30magl"],
-      "height_station_masl": 116.0,
-      "latitude": 49.417,
+      "height_station_masl": 113.0,
+      "latitude": 49.4172,
       "long_name": "Heidelberg, Germany",
-      "longitude": 8.674
+      "longitude": 8.675
     }
   },
   "HEL": {
@@ -1247,17 +1267,9 @@
       "height": ["100m", "50m"],
       "height_name": ["100magl", "50magl"],
       "height_station_masl": 158,
-      "latitude": 50.97661,
+      "latitude": 50.97675,
       "long_name": "Heathfield, UK",
-      "longitude": 0.23042
-    },
-    "GAUGE": {
-      "height": ["100m", "50m"],
-      "height_name": ["100magl", "50magl"],
-      "height_station_masl": 158,
-      "latitude": 50.97661,
-      "long_name": "Heathfield, UK",
-      "longitude": 0.23042
+      "longitude": 0.23048
     }
   },
   "HFM": {
@@ -1346,9 +1358,9 @@
       "height": ["115m"],
       "height_name": ["115magl"],
       "height_station_masl": 248.0,
-      "latitude": 46.95,
+      "latitude": 46.9558,
       "long_name": "Hegyhatsal, Hungary",
-      "longitude": 16.65
+      "longitude": 16.6522
     },
     "NOAA": {
       "height_station_masl": 248.0,
@@ -1553,12 +1565,12 @@
       "longitude": 7.98498
     },
     "ICOS": {
-      "height": ["10m"],
-      "height_name": ["10magl"],
-      "height_station_masl": 3528,
-      "latitude": 46.54753,
+      "height": ["5m"],
+      "height_name": ["1000magl"],
+      "height_station_masl": 3580,
+      "latitude": 46.5475,
       "long_name": "Jungfraujoch, Switzerland",
-      "longitude": 7.98498
+      "longitude": 7.9851
     },
     "NOAA": {
       "latitude": 46.54753,
@@ -1585,6 +1597,16 @@
       "latitude": 25.6654,
       "long_name": "Key Biscane, Florida",
       "longitude": -80.158
+    }
+  },
+  "KIT": {
+    "ICOS": {
+      "height": ["200m"],
+      "height_name": ["200magl"],
+      "height_station_masl": 110.0,
+      "latitude": 49.0915,
+      "long_name": "Karlsruhe, Germany",
+      "longitude": 8.4249
     }
   },
   "KJN": {
@@ -1815,9 +1837,9 @@
       "height": ["60m"],
       "height_name": ["60magl"],
       "height_station_masl": 1.0,
-      "latitude": 53.404,
+      "latitude": 53.4036,
       "long_name": "Lutjewad, Netherlands",
-      "longitude": 6.353
+      "longitude": 6.3528
     },
     "NOAA": {
       "latitude": 53.4037,
@@ -1899,7 +1921,7 @@
       "height": ["10m"],
       "height_name": ["10magl"],
       "height_station_masl": 8.0,
-      "latitude": 53.32663,
+      "latitude": 53.32667,
       "long_name": "Mace Head, Ireland",
       "longitude": -9.90456
     },
@@ -1907,9 +1929,9 @@
       "height": ["10m"],
       "height_name": ["10magl"],
       "height_station_masl": 8.0,
-      "latitude": 53.32663,
+      "latitude": 53.3261,
       "long_name": "Mace Head, Ireland",
-      "longitude": -9.90456
+      "longitude": -9.9036
     },
     "NOAA": {
       "height_station_masl": 8.0,
@@ -1949,6 +1971,16 @@
       "long_name": "Mauna Loa, Hawaii, United States",
       "longitude": -155.58
     }
+  },
+  "MLH": {
+    "ICOS": {
+      "height": ["10m"],
+      "height_name": ["10magl"],
+      "height_station_masl": 22.0,
+      "latitude": 55.3718,
+      "long_name": "Malin Head, Ireland",
+      "longitude": -7.3395
+	}
   },
   "MLO": {
     "NOAA": {
@@ -2103,6 +2135,14 @@
     }
   },
   "NOR": {
+    "ICOS": {
+      "latitude": 60.0864,
+      "longitude": 17.4794,
+      "height_station_masl": 46.0,
+      "long_name": "Norunda, Sweden",
+      "height": ["100m"],
+      "height_name": ["100magl"]
+    },
     "NOAA": {
       "latitude": 60.0864,
       "longitude": 17.4794,
@@ -2192,9 +2232,9 @@
       "height": ["120m"],
       "height_name": ["120magl"],
       "height_station_masl": 390.0,
-      "latitude": 48.562,
+      "latitude": 48.5619,
       "long_name": "Observatoire Perenne de l'Environnement, France",
-      "longitude": 5.504
+      "longitude": 5.5036
     },
     "NOAA": {
       "latitude": 48.5619,
@@ -2238,19 +2278,27 @@
       "height": ["10m"],
       "height_name": ["10magl"],
       "height_station_masl": 1022.0,
-      "latitude": 50.0301,
+      "latitude": 50.03,
       "long_name": "Ochsenkopf, Germany",
-      "longitude": 11.8084
+      "longitude": 11.8083
+    },
+    "ICOS": {
+      "height": ["163m"],
+      "height_name": ["163magl"],
+      "height_station_masl": 1022.0,
+      "latitude": 50.03,
+      "long_name": "Ochsenkopf, Germany",
+      "longitude": 11.8083
     }
   },
   "PAL": {
     "ICOS": {
-      "height": ["5m"],
-      "height_name": ["5magl"],
+      "height": ["12m"],
+      "height_name": ["10magl"],
       "height_station_masl": 565.0,
-      "latitude": 67.973,
+      "latitude": 67.9733,
       "long_name": "Pallas, Finland",
-      "longitude": 24.116
+      "longitude": 24.1157
     },
     "NOAA": {
       "height_station_masl": 565.0,
@@ -2466,17 +2514,17 @@
       "height": ["90m", "45m"],
       "height_name": ["90magl", "45magl"],
       "height_station_masl": 207,
-      "latitude": 51.99738,
+      "latitude": 51.99747,
       "long_name": "Ridge Hill, UK",
-      "longitude": -2.53977
+      "longitude": -2.53992
     },
     "ICOS": {
       "height": ["90m", "45m"],
       "height_name": ["90magl", "45magl"],
       "height_station_masl": 207,
-      "latitude": 51.99738,
+      "latitude": 51.99747,
       "long_name": "Ridge Hill, UK",
-      "longitude": -2.53977
+      "longitude": -2.53992
     },
     "NOAA": {
       "height": ["90m", "45m"],
@@ -2746,6 +2794,16 @@
       "longitude": -170.5644
     }
   },
+  "SMR": {
+    "ICOS": {
+      "height": ["125m"],
+      "height_name": ["125magl"],
+      "height_station_masl": 181.0,
+      "latitude": 61.8474,
+      "long_name": "Hyytiala, Finland",
+      "longitude": 24.2947
+    }
+  },
   "SNG": {
     "IITM": {
       "height": ["10m"],
@@ -2781,12 +2839,12 @@
   },
   "SSL": {
     "ICOS": {
-      "height": ["12m"],
-      "height_name": ["12magl"],
+      "height": ["12m", "35m"],
+      "height_name": ["12magl", "35magl"],
       "height_station_masl": 1205.0,
-      "latitude": 47.92,
+      "latitude": 47.9167,
       "long_name": "Schauinsland, Germany",
-      "longitude": 7.92
+      "longitude": 7.9166
     }
   },
   "STC": {
@@ -2877,17 +2935,17 @@
   "TAC": {
     "DECC": {
       "height": ["185m", "54m", "100m"],
-      "height_name": ["185magl", "50magl", "100magl"],
+      "height_name": ["185magl", "100magl", "54magl"],
       "height_station_masl": 64,
-      "latitude": 52.51811,
+      "latitude": 52.51882,
       "long_name": "Tacolneston Tower, UK",
-      "longitude": 1.13847
+      "longitude": 1.13870
     },
     "NOAA": {
       "height_station_masl": 64,
-      "latitude": 52.51811,
+      "latitude": 52.51882,
       "long_name": "Tacolneston, United Kingdom",
-      "longitude": 1.13847
+      "longitude": 1.13870
     }
   },
   "TAO": {
@@ -3014,9 +3072,9 @@
       "height": ["12m"],
       "height_name": ["12magl"],
       "height_station_masl": 825.0,
-      "latitude": 50.221884,
+      "latitude": 50.22188,
       "long_name": "Taunus, Germany",
-      "longitude": 8.446397
+      "longitude": 8.44639
     }
   },
   "TOH": {
@@ -3068,9 +3126,9 @@
       "height": ["180m"],
       "height_name": ["180magl"],
       "height_station_masl": 131.0,
-      "latitude": 47.965,
+      "latitude": 47.9647,
       "long_name": "Trainou, France",
-      "longitude": 2.112
+      "longitude": 2.1125
     },
     "NOAA": {
       "latitude": 47.9647,
@@ -3086,9 +3144,9 @@
       "height": ["222m"],
       "height_name": ["222magl"],
       "height_station_masl": 315,
-      "latitude": 56.55519,
+      "latitude": 56.55509,
       "long_name": "Angus Tower, UK",
-      "longitude": -2.98604
+      "longitude": -2.98598
     },
     "ICOS": {
       "height": ["222m"],
@@ -3137,6 +3195,14 @@
     }
   },
   "UTO": {
+    "ICOS": {
+      "latitude": 59.7839,
+      "longitude": 21.3672,
+      "height_station_masl": 8.0,
+      "long_name": "Uto, Finland",
+      "height": ["57m"],
+      "height_name": ["57magl"]
+    },
     "NOAA": {
       "latitude": 59.7839,
       "longitude": 21.3672,
@@ -3156,6 +3222,15 @@
       "longitude": 111.096
     }
   },
+  "VAL": {
+    "ICOS": {
+	  "height": ["10m"],
+	  "height_name": ["10magl"],
+	  "latitude":  51.908,
+	  "longitude": -10.403, 
+	  "long_name": "Valentia, Ireland"
+    }
+  },
   "VGR": {
     "CNR": {
       "height": ["5m"],
@@ -3168,25 +3243,27 @@
   },
   "WAO": {
     "ICOS": {
-      "height": ["21m"],
-      "height_name": ["20magl"],
-      "height_station_masl": 10.0,
-      "latitude": 52.95042,
-      "long_name": "Weybourne Observatory, UK",
-      "longitude": 1.12194
+      "height": ["10m"],
+      "height_name": {"10m": ["10magl", "20magl"]},
+      "height_station_masl": 17.0,
+      "latitude": 52.9504,
+      "long_name": "WAO",
+      "longitude": 1.1219,
+      "reference": "https://meta.icos-cp.eu/resources/stations/AS_WAO",
+      "comments": "05/01/2023: Station elevation of 31m may be included within ICOS header but value above of 17m is more recently agreed upon value and should be correct."
     },
     "UCAM": {
-      "height": ["21m"],
-      "height_name": ["20magl"],
-      "height_station_masl": 10.0,
+      "height": ["10m"],
+      "height_name": {"10m": ["10magl", "20magl"]},
+      "height_station_masl": 17.0,
       "latitude": 52.95042,
       "long_name": "Weybourne Observatory, UK",
       "longitude": 1.12194
     },
     "UEA": {
-      "height": ["21m"],
-      "height_name": ["20magl"],
-      "height_station_masl": 10.0,
+      "height": ["10m"],
+      "height_name": {"10m": ["10magl", "20magl"]},
+      "height_station_masl": 17.0,
       "latitude": 52.95042,
       "long_name": "Weybourne Observatory, UK",
       "longitude": 1.12194
@@ -3204,12 +3281,8 @@
   },
   "WES": {
     "ICOS": {
-      "height": [
-        "14m"
-      ],
-      "height_name": [
-        "14magl"
-      ],
+      "height": ["14m"],
+      "height_name": ["14magl"],
       "height_station_masl": 12.0,
       "latitude": 54.9231,
       "long_name": "Westerland, Germany",
@@ -3415,12 +3488,20 @@
   },
   "ZEP": {
     "AGAGE": {
-      "height": ["10m"],
-      "height_name": ["16magl"],
+      "height": ["12m"],
+      "height_name": ["10magl"],
       "height_station_masl": 474.0,
       "latitude": 78.925,
       "long_name": "Zeppelin, Ny Alesund, Norway",
       "longitude": 11.92222
+    },
+    "ICOS": {
+      "height": ["15m"],
+      "height_name": ["10magl"],
+      "height_station_masl": 474.0,
+      "latitude": 78.9072,
+      "long_name": "Ny-Alesund, Svalbard, Norway and Sweden",
+      "longitude": 11.8867
     },
     "NOAA": {
       "height_station_masl": 474.0,
@@ -3428,5 +3509,15 @@
       "long_name": "Ny-Alesund, Svalbard, Norway and Sweden",
       "longitude": 11.8883
     }
+  },
+  "ZSF": {
+	"ICOS": {
+	  "height_station_masl": 2666,
+	  "latitude": 47.4165,
+	  "longitude": 10.97964,
+	  "height": ["3m"],
+	  "height_name": ["3magl"],
+	  "long_name": "Zugspitze Schneefernerhaus"
+	}
   }
 }
