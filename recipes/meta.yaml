@@ -25,6 +25,6 @@ about:
   home: "{{ data.get('project').get('urls').get('Homepage') }}"
   license: MIT
   license_family: MIT
-  summary: "OpenGHG supplementary metadata"
+  summary: "{{ data.get('project').get('description') }}"
   doc_url: "{{ project.get('description') }}"
   dev_url: "{{ data.get('project').get('urls').get('Homepage') }}"
