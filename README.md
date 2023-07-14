@@ -21,6 +21,8 @@ git clone https://github.com/openghg/openghg_defs.git
 
 Next, move into the repository and use pip to create an editable install using the `-e` flag.
 
+> **_NOTE:_**  If you're using OpenGHG, please install `openghg_defs` in the [same virtual environment](https://docs.openghg.org/install.html#id1).
+
 ```console
 cd openghg_defs
 pip install -e .
@@ -31,52 +33,23 @@ the files in the repository folder will be accessible to OpenGHG.
 
 ### Install from PyPI
 
-If you don't think you'll need to make any changes to the metadata, you can install `openghg_defs` from PyPI using `pip`.
+If you don't think you'll need to make any changes to the metadata, you can install `openghg_defs` from PyPI using `pip`:
 
 ```console
 pip install openghg-defs
 ```
 
-## Usage
+### Install from conda
 
-The primary definition JSON files are accessible using either the loading functions
+You can also install `openghg_defs` from our `conda` channel:
 
-- `load_site_info` - load site information dictionary
-- `load_domain_info` - load domain info dictionary
-- `load_species_info` - load species info dictionary
-
-For example
-
-```ipython3
-In [1]: import openghg_defs
-
-In [2]: species_info = openghg_defs.load_species_info()
-
-In [3]: species_info
-Out[3]:
-{'APO': {'alt': ['atmospheric_potential_oxygen'],
-  'group': 'Other',
-  'name': 'atmospheric_potential_oxygen',
-  'long_name': 'Atmospheric Potential Oxygen',
-  'mol_mass': 'None',
-  'print_string': 'APO',
-  'units': 'per meg'},
- 'C2F6': {'alt': ['PFC-116', 'PFC116', 'hexafluoroethane'],
-  ...
- ```
-
-You can also get the path of the file directly:
-
-```ipython3
-In [1]: from openghg_defs import get_datapath
-   ...:
-   ...: fpath = get_datapath(filename="site_info.json")
-
-In [2]: fpath
-Out[2]: PosixPath('/home/gareth/Documents/Devel/supplementary_data/openghg_defs/data/site_info.json')
+```console
+pip install -c openghg openghg-defs
 ```
 
-Currently the paths to the files are also available directly by import:
+## Usage
+
+The path to the overall data path and primary definition JSON files are accessible using:
 
 ```python
 import openghg_defs
@@ -85,8 +58,6 @@ species_info_file = openghg_defs.species_info_file
 site_info_file = openghg_defs.site_info_file
 domain_info_file = openghg_defs.domain_info_file
 ```
-
-These may be removed in future versions so we recommend using the function call functionality above.
 
 ## Updating information
 

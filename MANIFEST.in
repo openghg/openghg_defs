@@ -5,5 +5,7 @@ include py.typed
 
 graft openghg_defs
 
-include versioneer.py
-include openghg_defs/_version.py
+global-exclude *.pickle
+global-exclude *.pyc
+global-exclude *.pyd
+global-exclude .git*
