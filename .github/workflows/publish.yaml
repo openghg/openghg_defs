@@ -44,7 +44,7 @@ jobs:
       - name: Install micromamba and activate the environment
         run: |
           curl -Ls -o micromamba-1.4.9-0.tar.bz2 https://micro.mamba.pm/api/micromamba/linux-64/1.4.9
-          echo "34ac1c25616365cec6fdcf691ad91f6de770bcece2b7978c58fd5b3f5db50c33  micromamba-1.4.9-0.tar.bz2" | sha256sum -c
+          echo "34ac1c25616365cec6fdcf691ad91f6de770bcece2b7978c58fd5b3f5db50cd9  micromamba-1.4.9-0.tar.bz2" | sha256sum -c
           tar -xvj bin/micromamba
           ./bin/micromamba create -n openghg_build boa anaconda-client -c conda-forge -y
           eval "$(./bin/micromamba shell hook --shell bash)"
