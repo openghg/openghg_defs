@@ -1,3 +1,13 @@
+name: openghg_defs workflow
+
+on:
+  push:
+    branches: [main, devel]
+    tags:
+      - "*"
+  pull_request:
+    branches: [main, devel]
+
 jobs:
   release_pypi:
     name: Build and publish Python distributions 📦 to PyPI and TestPyPI
