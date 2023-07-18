@@ -52,8 +52,6 @@ jobs:
           ./bin/micromamba create -n openghg_build boa anaconda-client -c conda-forge -y
           eval "$(./bin/micromamba shell hook --shell bash)"
           micromamba activate openghg_build
-      - name: Make build folder and build package
-        run: |
           mkdir ${{ github.workspace }}/build
           conda mambabuild --croot ${{ github.workspace }}/build recipes -c conda-forge
       # - name: Upload to conda
