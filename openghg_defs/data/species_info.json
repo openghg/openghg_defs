@@ -96,7 +96,7 @@
         "mol_mass": "165.83",
         "print_string": "C$_2$Cl$_4$", 
         "units": "ppt"
-    },
+    }, 
     "CF4": {"alt": ["PFC-14", "PFC14"],
         "group": "PFCs", 
         "long_name": "CF$_4$", 
