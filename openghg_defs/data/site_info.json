@@ -3139,6 +3139,14 @@
       "height_name": ["5magl"]
     }
   },
+  "TROPOMI-ALASKA": {
+    "TROPOMI/TROPOMI-ALASKA": {
+      "height": ["column"],
+      "height_name": ["column"],
+      "long_name": "TROPOMI, ALASKA",
+      "platform": "satellite"
+    }
+  },
   "TTA": {
     "DECC": {
       "height": ["222m"],
