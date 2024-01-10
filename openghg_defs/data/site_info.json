@@ -190,6 +190,16 @@
       "longitude": -27.375
     }
   },
+  "AZV": {
+    "NIES": {
+      "height": ["50m"],
+      "height_name": ["50magl"],
+      "height_station_masl": 110,
+      "latitude": 54.7050,
+      "long_name": "Azovo, Russia",
+      "longitude": 73.0292
+    }
+  },
   "BAL": {
     "NOAA": {
       "height_station_masl": 3.0,
@@ -1074,6 +1084,14 @@
       "latitude": 13.386,
       "long_name": "Mariana Islands, Guam",
       "longitude": 144.656
+    }
+  },
+  "GOSAT-ALASKA": {
+    "GOSAT/GOSAT-ALASKA": {
+      "height": ["column"],
+      "height_name": ["column"],
+      "long_name": "GOSAT, Alaska",
+      "platform": "satellite"
     }
   },
   "GOSAT-BRAZIL": {
