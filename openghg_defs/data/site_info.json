@@ -3165,6 +3165,14 @@
       "platform": "satellite"
     }
   },
+  "TROPOMI-WFMD-ALASKA": {
+    "TROPOMI/TROPOMI-WFMD-ALASKA": {
+      "height": ["column"],
+      "height_name": ["column"],
+      "long_name": "TROPOMI-WFMD, ALASKA",
+      "platform": "satellite"
+    }
+  },
   "TTA": {
     "DECC": {
       "height": ["222m"],
