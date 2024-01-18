@@ -374,6 +374,16 @@
       "longitude": -156.6114
     }
   },
+  "BRZ": {
+    "NIES": {
+      "height": ["80m"],
+      "height_name": ["80magl"],
+      "height_station_masl": 168,
+      "latitude": 56.1458,
+      "long_name": "Berezorechka, Russia",
+      "longitude": 84.3319
+    }
+  },
   "BSC": {
     "NOAA": {
       "height_station_masl": 0.0,
@@ -1677,6 +1687,16 @@
       "height_name": ["125magl"]
     }
   },
+  "KRS": {
+    "NIES": {
+      "height": ["67m"],
+      "height_name": ["67magl"],
+      "height_station_masl": 76,
+      "latitude": 58.2456,
+      "long_name": "Karasevoe, Russia",
+      "longitude": 82.4244
+    }
+  },
   "KUM": {
     "NOAA": {
       "height": ["10m"],
@@ -2168,6 +2188,16 @@
       "long_name": "Norunda, Sweden",
       "height": ["32m"],
       "height_name": ["32magl"]
+    }
+  },
+  "NOY": {
+    "NIES": {
+      "height": ["43m"],
+      "height_name": ["43magl"],
+      "height_station_masl": 108,
+      "latitude": 63.4292,
+      "long_name": "Noyabrsk, Russia",
+      "longitude": 75.78
     }
   },
   "NPL": {
@@ -3263,6 +3293,16 @@
 	  "latitude":  51.908,
 	  "longitude": -10.403, 
 	  "long_name": "Valentia, Ireland"
+    }
+  },
+  "VGN": {
+    "NIES": {
+      "height": ["85m"],
+      "height_name": ["85magl"],
+      "height_station_masl": 192,
+      "latitude": 54.4972,
+      "long_name": "Vaganovo, Russia",
+      "longitude": 62.3247
     }
   },
   "VGR": {
