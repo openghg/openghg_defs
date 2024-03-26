@@ -406,7 +406,7 @@
         }
       ],
       "height": ["248m", "108m", "42m"],
-      "height_name": ["248magl", "108magl", "42magl"],
+      "height_name": {"248m": ["248magl", "250magl"], "108m": ["108magl"], "42m": ["42magl"]},
       "height_station_masl": 382,
       "latitude": 54.35861,
       "long_name": "Bilsdale, UK",
