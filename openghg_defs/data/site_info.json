@@ -3593,5 +3593,25 @@
 	  "height_name": ["3magl"],
 	  "long_name": "Zugspitze Schneefernerhaus"
 	}
+  },
+  "CFG": {
+     "UEA": {
+       "height_station_masl": 52, 
+       "latitude": 121.538,
+       "longitude": 25.297,
+       "height": ["0m"],
+       "height_name": ["0magl"],
+       "long_name": "Cape Fuguei, Taiwan"
   }
+  },
+  "HGC": {
+    "UEA": {
+       "height_station_masl": 7, 
+       "latitude": 120.6995,
+       "longitude": 22.0547,
+       "height": ["0m"],
+       "height_name": ["0magl"],
+       "long_name": "Hengchun, Taiwan"
+    }
+    }
 }
