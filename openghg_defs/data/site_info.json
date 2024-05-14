@@ -1407,6 +1407,16 @@
       "longitude": -20.288
     }
   },
+
+  "IMP": {
+      "height": ["26m"],
+      "height_name": ["26magl"],
+      "height_station_masl": 36.0,
+      "latitude": 51.4988,
+      "long_name": "Imperial College London, London, UK",
+      "longitude": -0.1749
+    },
+
   "INU": {
     "EC": {
       "height": ["10m"],
@@ -1629,12 +1639,12 @@
   },
   "KIT": {
     "ICOS": {
-      "height": ["200m"],
-      "height_name": ["200magl"],
+      "height": ["30m", "60m", "100m", "200m"],
+      "height_name": ["30magl", "60magl", "100magl", "200magl"],
       "height_station_masl": 110.0,
       "latitude": 49.0915,
       "long_name": "Karlsruhe, Germany",
-      "longitude": 8.4249
+      "longitude": 8.4249,
     }
   },
   "KJN": {
