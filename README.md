@@ -5,7 +5,6 @@ This repository contains the supplementary information / metadata around site, s
 ## Installation
 
 Note that `openghg_defs` should be installed in the same virtual environment as OpenGHG.
-There are two ways of installing `openghg_defs`, as an editable install of this git repository or via PyPI.
 
 ### Editable install
 
