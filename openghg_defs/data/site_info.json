@@ -2818,6 +2818,14 @@
     }
   },
   "SIS": {
+    "DECC": {
+      "height": ["2m"],
+      "height_name": ["2magl"],
+      "height_station_masl": 84.0,
+      "latitude": 60.1391,
+      "long_name": "Shetland Islands, Scotland",
+      "longitude": -1.1848
+    },
     "NOAA": {
       "latitude": 60.089,
       "longitude": -1.255,
