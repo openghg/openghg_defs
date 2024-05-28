@@ -3331,7 +3331,7 @@
       "height_name": {"10m": ["10magl", "20magl"]},
       "height_station_masl": 17.0,
       "latitude": 52.9504,
-      "long_name": "WAO",
+      "long_name": "Weybourne Observatory, UK",
       "longitude": 1.1219,
       "reference": "https://meta.icos-cp.eu/resources/stations/AS_WAO",
       "comments": "05/01/2023: Station elevation of 31m may be included within ICOS header but value above of 17m is more recently agreed upon value and should be correct."
