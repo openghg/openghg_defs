@@ -1593,6 +1593,16 @@
       "longitude": -16.499
     }
   },
+  "JBO": {
+    "DECC": {
+      "height": ["45m"],
+      "height_name": ["45magl"],
+      "height_station_masl": 77.0,
+      "latitude": 53.23528,
+      "long_name": "Jodrell Bank, United Kingdom",
+      "longitude": -2.30538
+    }
+  },
   "JFJ": {
     "AGAGE": {
       "height": ["1000m", "10m"],
