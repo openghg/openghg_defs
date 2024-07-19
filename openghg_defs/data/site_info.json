@@ -1593,6 +1593,16 @@
       "longitude": -16.499
     }
   },
+  "JBO": {
+    "DECC": {
+      "height": ["45m"],
+      "height_name": ["45magl"],
+      "height_station_masl": 77.0,
+      "latitude": 53.23528,
+      "long_name": "Jodrell Bank, United Kingdom",
+      "longitude": -2.30538
+    }
+  },
   "JFJ": {
     "AGAGE": {
       "height": ["1000m", "10m"],
@@ -1617,6 +1627,16 @@
       "long_name": "Jungfraujoch, Switzerland",
       "height": ["5m"],
       "height_name": ["5magl"]
+    }
+  },
+  "JUE": {
+    "ICOS": {
+      "height": ["50m", "80m", "120m"],
+      "height_name": ["50magl", "80magl", "120magl"],
+      "height_station_masl": 98.0,
+      "latitude": 50.9102,
+      "long_name": "Julich, Germany",
+      "longitude": 6.4096
     }
   },
   "KCO": {
@@ -1800,6 +1820,16 @@
       "latitude": 51.608031,
       "long_name": "Highfield Tower, London, UK",
       "longitude": 0.174544
+    }
+  },
+  "LMP": {
+    "ICOS": {
+      "height": ["8m"],
+      "height_name": ["8magl"],
+      "height_station_masl": 45.0,
+      "latitude": 35.5181,
+      "long_name": "Lampedusa, Italy",
+      "longitude": 12.6322
     }
   },
   "LSTJ": {
@@ -2531,6 +2561,16 @@
       "longitude": 180.0
     }
   },
+  "PRS": {
+    "ICOS": {
+      "height": ["10m"],
+      "height_name": ["10magl"],
+      "height_station_masl": 3480.0,
+      "latitude": 45.93,
+      "long_name": "Plateau Rosa, Italy",
+      "longitude": 7.7
+    }
+  },
   "PSA": {
     "NOAA": {
       "height": ["10m"],
@@ -2555,6 +2595,16 @@
       "latitude": 38.9546,
       "long_name": "Point Arena, California, United States",
       "longitude": -123.7408
+    }
+  },
+  "PUI": {
+    "ICOS": {
+      "height": ["47m", "84m"],
+      "height_name": ["47magl", "84magl"],
+      "height_station_masl": 232.0,
+      "latitude": 27.6549,
+      "long_name": "Puijo, Finland",
+      "longitude": 62.9096
     }
   },
   "PUY": {
@@ -2635,6 +2685,16 @@
       "latitude": -21.25,
       "long_name": "Rarotonga, Cook Islands",
       "longitude": -159.83
+    }
+  },
+  "RUN": {
+    "ICOS": {
+      "height": ["6m"],
+      "height_name": ["6magl"],
+      "height_station_masl": 2154.0,
+      "latitude": -21.0796,
+      "long_name": "La Reunion, France",
+      "longitude": 55.3841
     }
   },
   "RWA": {
@@ -2875,6 +2935,16 @@
       "height": ["10m"],
       "height_name": ["10magl"],
       "long_name": "Sinhagad, India"
+    }
+  },
+  "SNO": {
+    "ICOS": {
+      "height": ["20m", "50m", "85m"],
+      "height_name": ["20magl", "50magl", "85magl"],
+      "height_station_masl": 24.0,
+      "latitude": 81.3605,
+      "long_name": "Station Nord, Greenland",
+      "longitude": -16.3943
     }
   },
   "SNP": {
