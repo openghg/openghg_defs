@@ -274,6 +274,16 @@
       "longitude": 174.87
     }
   },
+  "BIK": {
+    "ICOS": {
+      "height": ["300m"],
+      "height_name": ["300magl"],
+      "height_station_masl": 183.0,
+      "latitude": 53.2294,
+      "long_name": "Bialystok, Poland",
+      "longitude": 23.0128
+    }
+  },
   "BIR": {
     "ICOS": {
       "height": ["10m", "75m"],
@@ -1089,6 +1099,16 @@
       "height_name": ["328masl"]
     }
   },
+  "GIF": {
+    "ICOS": {
+      "latitude": 48.71,
+      "longitude": 2.1475,
+      "height_station_masl": 160.0,
+      "long_name": "Gif sur Yvette, France",
+      "height": ["7m"],
+      "height_name": ["7magl"]
+    }
+  },
   "GLA": {
     "GAUGE": {
       "height": ["10m"],
@@ -1595,9 +1615,17 @@
   },
   "IZO": {
     "NOAA": {
-      "height": ["10m"],
-      "height_name": ["10magl"],
-      "height_station_masl": 2372.0,
+      "height": ["5m"],
+      "height_name": ["5magl"],
+      "height_station_masl": 2373.0,
+      "latitude": 28.309,
+      "long_name": "Izana, Tenerife",
+      "longitude": -16.499
+    },
+    "ICOS": {
+      "height": ["29m"],
+      "height_name": ["29magl"],
+      "height_station_masl": 2373.0,
       "latitude": 28.309,
       "long_name": "Izana, Tenerife",
       "longitude": -16.499
@@ -1836,6 +1864,14 @@
     "ICOS": {
       "height": ["8m"],
       "height_name": ["8magl"],
+      "height_station_masl": 45.0,
+      "latitude": 35.5181,
+      "long_name": "Lampedusa, Italy",
+      "longitude": 12.6322
+    },
+    "NOAA": {
+      "height": ["5m"],
+      "height_name": ["5magl"],
       "height_station_masl": 45.0,
       "latitude": 35.5181,
       "long_name": "Lampedusa, Italy",
@@ -3683,13 +3719,13 @@
     }
   },
   "ZSF": {
-	"ICOS": {
-	  "height_station_masl": 2666,
-	  "latitude": 47.4165,
-	  "longitude": 10.97964,
-	  "height": ["3m"],
-	  "height_name": ["3magl"],
-	  "long_name": "Zugspitze Schneefernerhaus"
-	}
+    "ICOS": {
+      "height_station_masl": 2666,
+      "latitude": 47.4165,
+      "longitude": 10.97964,
+      "height": ["3m"],
+      "height_name": ["3magl"],
+      "long_name": "Zugspitze Schneefernerhaus"
+    }
   }
 }
