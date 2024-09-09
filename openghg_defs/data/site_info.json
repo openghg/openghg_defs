@@ -693,6 +693,16 @@
       "height_name": ["6magl"]
     }
   },
+  "CRA": {
+    "ICOS": {
+      "latitude": 43.1298,
+      "longitude": 0.3692,
+      "height_station_masl": 600.0,
+      "height": ["5m", "30m", "60m"],
+      "height_name": ["5magl", "30magl", "60magl"],
+      "long_name": "Centre de Recherches Atmosphériques, France"
+    }
+  },
   "CRP": {
     "ICOS": {
       "latitude": 52.1775,
