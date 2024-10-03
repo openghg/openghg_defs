@@ -500,6 +500,14 @@
       "latitude": 51.9703,
       "long_name": "Cabauw Tower, Netherlands",
       "longitude": 4.9264
+    },
+    "ICOS": {
+      "height": ["27m", "67m", "127m", "207m"],
+      "height_name": ["27magl", "67magl", "127magl", "207magl"],
+      "height_station_masl": 0.0,
+      "latitude": 51.9703,
+      "long_name": "Cabauw Tower, Netherlands",
+      "longitude": 4.9264
     }
   },
   "CBY": {
@@ -3115,6 +3123,14 @@
     }
   },
   "TAC": {
+    "AGAGE": {
+      "height": ["185m", "54m", "100m"],
+      "height_name": ["185magl", "100magl", "54magl"],
+      "height_station_masl": 64,
+      "latitude": 52.51882,
+      "long_name": "Tacolneston Tower, UK",
+      "longitude": 1.13870
+    },
     "DECC": {
       "height": ["185m", "54m", "100m"],
       "height_name": ["185magl", "100magl", "54magl"],
