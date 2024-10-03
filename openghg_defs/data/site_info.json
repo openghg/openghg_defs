@@ -274,6 +274,16 @@
       "longitude": 174.87
     }
   },
+  "BIK": {
+    "ICOS": {
+      "height": ["300m"],
+      "height_name": ["300magl"],
+      "height_station_masl": 183.0,
+      "latitude": 53.2294,
+      "long_name": "Bialystok, Poland",
+      "longitude": 23.0128
+    }
+  },
   "BIR": {
     "ICOS": {
       "height": ["10m", "75m"],
@@ -487,6 +497,14 @@
       "height": ["120m", "20m", "60m", "200m"],
       "height_name": ["120magl", "20magl", "60magl", "200magl"],
       "height_station_masl": 213.0,
+      "latitude": 51.9703,
+      "long_name": "Cabauw Tower, Netherlands",
+      "longitude": 4.9264
+    },
+    "ICOS": {
+      "height": ["27m", "67m", "127m", "207m"],
+      "height_name": ["27magl", "67magl", "127magl", "207magl"],
+      "height_station_masl": 0.0,
       "latitude": 51.9703,
       "long_name": "Cabauw Tower, Netherlands",
       "longitude": 4.9264
@@ -1089,6 +1107,16 @@
       "height_name": ["328masl"]
     }
   },
+  "GIF": {
+    "ICOS": {
+      "latitude": 48.71,
+      "longitude": 2.1475,
+      "height_station_masl": 160.0,
+      "long_name": "Gif sur Yvette, France",
+      "height": ["7m"],
+      "height_name": ["7magl"]
+    }
+  },
   "GLA": {
     "GAUGE": {
       "height": ["10m"],
@@ -1595,9 +1623,17 @@
   },
   "IZO": {
     "NOAA": {
-      "height": ["10m"],
-      "height_name": ["10magl"],
-      "height_station_masl": 2372.0,
+      "height": ["5m"],
+      "height_name": ["5magl"],
+      "height_station_masl": 2373.0,
+      "latitude": 28.309,
+      "long_name": "Izana, Tenerife",
+      "longitude": -16.499
+    },
+    "ICOS": {
+      "height": ["29m"],
+      "height_name": ["29magl"],
+      "height_station_masl": 2373.0,
       "latitude": 28.309,
       "long_name": "Izana, Tenerife",
       "longitude": -16.499
@@ -1836,6 +1872,14 @@
     "ICOS": {
       "height": ["8m"],
       "height_name": ["8magl"],
+      "height_station_masl": 45.0,
+      "latitude": 35.5181,
+      "long_name": "Lampedusa, Italy",
+      "longitude": 12.6322
+    },
+    "NOAA": {
+      "height": ["5m"],
+      "height_name": ["5magl"],
       "height_station_masl": 45.0,
       "latitude": 35.5181,
       "long_name": "Lampedusa, Italy",
@@ -3079,6 +3123,14 @@
     }
   },
   "TAC": {
+    "AGAGE": {
+      "height": ["185m", "54m", "100m"],
+      "height_name": ["185magl", "100magl", "54magl"],
+      "height_station_masl": 64,
+      "latitude": 52.51882,
+      "long_name": "Tacolneston Tower, UK",
+      "longitude": 1.13870
+    },
     "DECC": {
       "height": ["185m", "54m", "100m"],
       "height_name": ["185magl", "100magl", "54magl"],
@@ -3683,13 +3735,13 @@
     }
   },
   "ZSF": {
-	"ICOS": {
-	  "height_station_masl": 2666,
-	  "latitude": 47.4165,
-	  "longitude": 10.97964,
-	  "height": ["3m"],
-	  "height_name": ["3magl"],
-	  "long_name": "Zugspitze Schneefernerhaus"
-	}
+    "ICOS": {
+      "height_station_masl": 2666,
+      "latitude": 47.4165,
+      "longitude": 10.97964,
+      "height": ["3m"],
+      "height_name": ["3magl"],
+      "long_name": "Zugspitze Schneefernerhaus"
+    }
   }
 }
