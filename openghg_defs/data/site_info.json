@@ -3752,7 +3752,7 @@
       "latitude" : 53.23, 
       "long_name" : "bialystok01, Bialystok, Poland", 
       "longitude" : 23.03, 
-      "platform" : "ground_based_column", 
+      "platform" : "ground_based_column"
     } 
   },
   "BR": {
@@ -3763,7 +3763,7 @@
       "latitude" : 53.104, 
       "long_name" : "bremen01, Bremen, Germany", 
       "longitude" : 8.85, 
-      "platform" : "ground_based_column", 
+      "platform" : "ground_based_column"
     } 
   },
   "BU": {
@@ -3774,7 +3774,7 @@
       "latitude" : 18.5325, 
       "long_name" : "burgos01, Burgos, Ilocos Norte, Philippines", 
       "longitude" : 120.6496, 
-      "platform" : "ground_based_column", 
+      "platform" : "ground_based_column"
     } 
   },
   "CI": {
@@ -3785,7 +3785,7 @@
       "latitude" : 34.136, 
       "long_name" : "pasadena01, California Institute of Technology, Pasadena, California, USA", 
       "longitude" : 118.127, 
-      "platform" : "ground_based_column", 
+      "platform" : "ground_based_column"
     } 
   },
   "DB": {
@@ -3796,7 +3796,7 @@
       "latitude" : 12.425, 
       "long_name" : "darwin01, Darwin, Australia", 
       "longitude" : 130.891, 
-      "platform" : "ground_based_column", 
+      "platform" : "ground_based_column"
     } 
   },
   "DF": {
@@ -3807,7 +3807,7 @@
       "latitude" : 34.959917, 
       "long_name" : "edwards01, Armstrong Flight Research Center, Edwards, CA, USA", 
       "longitude" : 117.881069, 
-      "platform" : "ground_based_column", 
+      "platform" : "ground_based_column"
     } 
   },
   "ET": {
@@ -3818,7 +3818,7 @@
       "latitude" : 54.354, 
       "long_name" : "easttroutlake01, East Trout Lake, Canada", 
       "longitude" : 104.987, 
-      "platform" : "ground_based_column", 
+      "platform" : "ground_based_column"
     } 
   },
   "EU": {
@@ -3829,7 +3829,7 @@
       "latitude" : 80.05, 
       "long_name" : "eureka01, Eureka, Canada", 
       "longitude" : 86.42, 
-      "platform" : "ground_based_column", 
+      "platform" : "ground_based_column"
     } 
   },
   "FC": {
@@ -3840,7 +3840,7 @@
       "latitude" : 45.945, 
       "long_name" : "fourcorners01, Four Corners, NM, USA", 
       "longitude" : 90.273, 
-      "platform" : "ground_based_column", 
+      "platform" : "ground_based_column"
     } 
   },
   "GM": {
@@ -3851,7 +3851,7 @@
       "latitude" : 47.476, 
       "long_name" : "garmisch01, Garmisch, Germany", 
       "longitude" : 11.063, 
-      "platform" : "ground_based_column", 
+      "platform" : "ground_based_column"
     } 
   },
   "HF": {
@@ -3862,7 +3862,7 @@
       "latitude" : 31.91, 
       "long_name" : "hefei01, Hefei, China", 
       "longitude" : 117.17, 
-      "platform" : "ground_based_column", 
+      "platform" : "ground_based_column"
     } 
   },
   "HW": {
@@ -3873,7 +3873,7 @@
       "latitude" : 45.945, 
       "long_name" : "harwell01, Space Sciecne and Technology Department, STFC Rutherford Appleton Laboratory, Harwell Campus, Didcot, Oxfordshire, OX11 0QX, UK", 
       "longitude" : 90.273, 
-      "platform" : "ground_based_column", 
+      "platform" : "ground_based_column"
     } 
   },
   "IF": {
@@ -3884,7 +3884,7 @@
       "latitude" : 34.959917, 
       "long_name" : "indianapolis01, Indianapolis, Indiana, USA", 
       "longitude" : 117.881069, 
-      "platform" : "ground_based_column", 
+      "platform" : "ground_based_column"
     } 
   },
   "IZ": {
@@ -3895,7 +3895,7 @@
       "latitude" : 28.31, 
       "long_name" : "izana01, Izana, Tenerife, Spain", 
       "longitude" : 16.5, 
-      "platform" : "ground_based_column", 
+      "platform" : "ground_based_column"
     } 
   },
   "JC": {
@@ -3906,7 +3906,7 @@
       "latitude" : 34.202, 
       "long_name" : "jpl01, Jet Propulsion Laboratory, Pasadena, California, USA", 
       "longitude" : 118.175, 
-      "platform" : "ground_based_column", 
+      "platform" : "ground_based_column"
     } 
   },
   "JF": {
@@ -3917,7 +3917,7 @@
       "latitude" : 34.202, 
       "long_name" : "jpl02, Jet Propulsion Laboratory, Pasadena, California, USA", 
       "longitude" : 118.175, 
-      "platform" : "ground_based_column", 
+      "platform" : "ground_based_column"
     } 
   },
   "JS": {
@@ -3928,7 +3928,7 @@
       "latitude" : 33.241, 
       "long_name" : "saga01, Saga, Japan", 
       "longitude" : 130.2882, 
-      "platform" : "ground_based_column", 
+      "platform" : "ground_based_column"
     } 
   },
   "KA": {
@@ -3939,7 +3939,7 @@
       "latitude" : 49.103, 
       "long_name" : "karlsruhe01, Karlsruhe, Germany", 
       "longitude" : 8.44, 
-      "platform" : "ground_based_column", 
+      "platform" : "ground_based_column"
     } 
   },
   "LH": {
@@ -3950,7 +3950,7 @@
       "latitude" : 45.038, 
       "long_name" : "lauder01, Lauder, New Zealand, 120HR", 
       "longitude" : 169.684, 
-      "platform" : "ground_based_column", 
+      "platform" : "ground_based_column"
     } 
   },
   "LL": {
@@ -3961,7 +3961,7 @@
       "latitude" : 45.038, 
       "long_name" : "lauder02, Lauder, New Zealand, 125HR", 
       "longitude" : 169.684, 
-      "platform" : "ground_based_column", 
+      "platform" : "ground_based_column"
     } 
   },
   "LR": {
@@ -3972,7 +3972,7 @@
       "latitude" : 45.038, 
       "long_name" : "lauder03, Lauder, New Zealand, 125HR", 
       "longitude" : 169.684, 
-      "platform" : "ground_based_column", 
+      "platform" : "ground_based_column"
     } 
   },
   "MA": {
@@ -3983,7 +3983,7 @@
       "latitude" : 45.945, 
       "long_name" : "manaus01, Manaus, Brazil", 
       "longitude" : 90.273, 
-      "platform" : "ground_based_column", 
+      "platform" : "ground_based_column"
     } 
   },
   "NI": {
@@ -3994,7 +3994,7 @@
       "latitude" : 35.141, 
       "long_name" : "nicosia01, Nicosia (CY), The Cyprus Institute", 
       "longitude" : 33.381, 
-      "platform" : "ground_based_column", 
+      "platform" : "ground_based_column"
     } 
   },
   "NY": {
@@ -4005,7 +4005,7 @@
       "latitude" : 78.9, 
       "long_name" : "nyalesund01, Ny-Ålesund, Svalbard, Norway", 
       "longitude" : 11.9, 
-      "platform" : "ground_based_column", 
+      "platform" : "ground_based_column"
     } 
   },
   "OC": {
@@ -4016,7 +4016,7 @@
       "latitude" : 36.604, 
       "long_name" : "lamont01, Lamont, Oklahoma, USA", 
       "longitude" : 97.486, 
-      "platform" : "ground_based_column", 
+      "platform" : "ground_based_column"
     } 
   },
   "OR": {
@@ -4027,7 +4027,7 @@
       "latitude" : 47.97, 
       "long_name" : "orleans01, Orleans, France", 
       "longitude" : 2.113, 
-      "platform" : "ground_based_column", 
+      "platform" : "ground_based_column"
     } 
   },
   "PA": {
@@ -4038,7 +4038,7 @@
       "latitude" : 45.945, 
       "long_name" : "parkfalls01, Park Falls, Wisconsin, USA", 
       "longitude" : 90.273, 
-      "platform" : "ground_based_column", 
+      "platform" : "ground_based_column"
     } 
   },
   "PR": {
@@ -4049,7 +4049,7 @@
       "latitude" : 45.945, 
       "long_name" : "paris01, LERMA, Sorbonne Université, Campus Pierre et Marie Curie, 4 Place Jussieu, Paris 05, France", 
       "longitude" : 90.273, 
-      "platform" : "ground_based_column", 
+      "platform" : "ground_based_column"
     } 
   },
   "RA": {
@@ -4060,7 +4060,7 @@
       "latitude" : -20.901, 
       "long_name" : "reunion01, Reunion Island (Ile de La Reunion), France", 
       "longitude" : 55.485, 
-      "platform" : "ground_based_column", 
+      "platform" : "ground_based_column"
     } 
   },
   "RJ": {
@@ -4071,7 +4071,7 @@
       "latitude" : 43.4567, 
       "long_name" : "rikubetsu01, Rikubetsu, Hokkaido, Japan", 
       "longitude" : 143.7661, 
-      "platform" : "ground_based_column", 
+      "platform" : "ground_based_column"
     } 
   },
   "SO": {
@@ -4082,7 +4082,7 @@
       "latitude" : 67.367, 
       "long_name" : "sodankyla01, Sodankylä, Finland", 
       "longitude" : 26.631, 
-      "platform" : "ground_based_column", 
+      "platform" : "ground_based_column"
     } 
   },
   "TK": {
@@ -4093,7 +4093,7 @@
       "latitude" : 36.0513, 
       "long_name" : "tsukuba02, Tsukuba, Ibaraki, Japan, 125HR", 
       "longitude" : 140.1215, 
-      "platform" : "ground_based_column", 
+      "platform" : "ground_based_column"
     } 
   },
   "WG": {
@@ -4104,7 +4104,7 @@
       "latitude" : 34.406, 
       "long_name" : "wollongong01, Wollongong, Australia", 
       "longitude" : 150.891, 
-      "platform" : "ground_based_column", 
+      "platform" : "ground_based_column"
     } 
   },
   "XH": {
@@ -4115,7 +4115,7 @@
       "latitude" : 39.8, 
       "long_name" : "xianghe01, Xianghe, China", 
       "longitude" : 116.96, 
-      "platform" : "ground_based_column", 
+      "platform" : "ground_based_column"
     } 
   }
 }
