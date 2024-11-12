@@ -3744,7 +3744,7 @@
       "long_name": "Zugspitze Schneefernerhaus"
     }
   },
-  "BI": {
+  "BIT": {
     "TCCON": {
       "height" : "column", 
       "height_name" : "column", 
@@ -3755,7 +3755,7 @@
       "platform" : "ground_based_column"
     } 
   },
-  "BR": {
+  "BRT": {
     "TCCON": {
       "height" : "column", 
       "height_name" : "column", 
@@ -3766,7 +3766,7 @@
       "platform" : "ground_based_column"
     } 
   },
-  "BU": {
+  "BUT": {
     "TCCON": {
       "height" : "column", 
       "height_name" : "column", 
@@ -3777,7 +3777,7 @@
       "platform" : "ground_based_column"
     } 
   },
-  "CI": {
+  "CIT": {
     "TCCON": {
       "height" : "column", 
       "height_name" : "column", 
@@ -3788,7 +3788,7 @@
       "platform" : "ground_based_column"
     } 
   },
-  "DB": {
+  "DBT": {
     "TCCON": {
       "height" : "column", 
       "height_name" : "column", 
@@ -3799,7 +3799,7 @@
       "platform" : "ground_based_column"
     } 
   },
-  "DF": {
+  "DFT": {
     "TCCON": {
       "height" : "column", 
       "height_name" : "column", 
@@ -3810,7 +3810,7 @@
       "platform" : "ground_based_column"
     } 
   },
-  "ET": {
+  "ETT": {
     "TCCON": {
       "height" : "column", 
       "height_name" : "column", 
@@ -3821,7 +3821,7 @@
       "platform" : "ground_based_column"
     } 
   },
-  "EU": {
+  "EUT": {
     "TCCON": {
       "height" : "column", 
       "height_name" : "column", 
@@ -3832,7 +3832,7 @@
       "platform" : "ground_based_column"
     } 
   },
-  "FC": {
+  "FCT": {
     "TCCON": {
       "height" : "column", 
       "height_name" : "column", 
@@ -3843,7 +3843,7 @@
       "platform" : "ground_based_column"
     } 
   },
-  "GM": {
+  "GMT": {
     "TCCON": {
       "height" : "column", 
       "height_name" : "column", 
@@ -3854,7 +3854,7 @@
       "platform" : "ground_based_column"
     } 
   },
-  "HF": {
+  "HFE": {
     "TCCON": {
       "height" : "column", 
       "height_name" : "column", 
@@ -3865,7 +3865,7 @@
       "platform" : "ground_based_column"
     } 
   },
-  "HW": {
+  "HWT": {
     "TCCON": {
       "height" : "column", 
       "height_name" : "column", 
@@ -3876,7 +3876,7 @@
       "platform" : "ground_based_column"
     } 
   },
-  "IF": {
+  "IFT": {
     "TCCON": {
       "height" : "column", 
       "height_name" : "column", 
@@ -3887,7 +3887,7 @@
       "platform" : "ground_based_column"
     } 
   },
-  "IZ": {
+  "IZT": {
     "TCCON": {
       "height" : "column", 
       "height_name" : "column", 
@@ -3898,7 +3898,7 @@
       "platform" : "ground_based_column"
     } 
   },
-  "JC": {
+  "JCT": {
     "TCCON": {
       "height" : "column", 
       "height_name" : "column", 
@@ -3909,7 +3909,7 @@
       "platform" : "ground_based_column"
     } 
   },
-  "JF": {
+  "JFT": {
     "TCCON": {
       "height" : "column", 
       "height_name" : "column", 
@@ -3920,7 +3920,7 @@
       "platform" : "ground_based_column"
     } 
   },
-  "JS": {
+  "JST": {
     "TCCON": {
       "height" : "column", 
       "height_name" : "column", 
@@ -3931,7 +3931,7 @@
       "platform" : "ground_based_column"
     } 
   },
-  "KA": {
+  "KAT": {
     "TCCON": {
       "height" : "column", 
       "height_name" : "column", 
@@ -3942,7 +3942,7 @@
       "platform" : "ground_based_column"
     } 
   },
-  "LH": {
+  "LHT": {
     "TCCON": {
       "height" : "column", 
       "height_name" : "column", 
@@ -3953,7 +3953,7 @@
       "platform" : "ground_based_column"
     } 
   },
-  "LL": {
+  "LLT": {
     "TCCON": {
       "height" : "column", 
       "height_name" : "column", 
@@ -3964,7 +3964,7 @@
       "platform" : "ground_based_column"
     } 
   },
-  "LR": {
+  "LRT": {
     "TCCON": {
       "height" : "column", 
       "height_name" : "column", 
@@ -3975,7 +3975,7 @@
       "platform" : "ground_based_column"
     } 
   },
-  "MA": {
+  "MAT": {
     "TCCON": {
       "height" : "column", 
       "height_name" : "column", 
@@ -3986,7 +3986,7 @@
       "platform" : "ground_based_column"
     } 
   },
-  "NI": {
+  "NIT": {
     "TCCON": {
       "height" : "column", 
       "height_name" : "column", 
@@ -3997,7 +3997,7 @@
       "platform" : "ground_based_column"
     } 
   },
-  "NY": {
+  "NYT": {
     "TCCON": {
       "height" : "column", 
       "height_name" : "column", 
@@ -4008,7 +4008,7 @@
       "platform" : "ground_based_column"
     } 
   },
-  "OC": {
+  "OCT": {
     "TCCON": {
       "height" : "column", 
       "height_name" : "column", 
@@ -4019,7 +4019,7 @@
       "platform" : "ground_based_column"
     } 
   },
-  "OR": {
+  "ORT": {
     "TCCON": {
       "height" : "column", 
       "height_name" : "column", 
@@ -4030,7 +4030,7 @@
       "platform" : "ground_based_column"
     } 
   },
-  "PA": {
+  "PAT": {
     "TCCON": {
       "height" : "column", 
       "height_name" : "column", 
@@ -4041,7 +4041,7 @@
       "platform" : "ground_based_column"
     } 
   },
-  "PR": {
+  "PRT": {
     "TCCON": {
       "height" : "column", 
       "height_name" : "column", 
@@ -4052,7 +4052,7 @@
       "platform" : "ground_based_column"
     } 
   },
-  "RA": {
+  "RAT": {
     "TCCON": {
       "height" : "column", 
       "height_name" : "column", 
@@ -4063,7 +4063,7 @@
       "platform" : "ground_based_column"
     } 
   },
-  "RJ": {
+  "RJT": {
     "TCCON": {
       "height" : "column", 
       "height_name" : "column", 
@@ -4074,7 +4074,7 @@
       "platform" : "ground_based_column"
     } 
   },
-  "SO": {
+  "SOT": {
     "TCCON": {
       "height" : "column", 
       "height_name" : "column", 
@@ -4085,7 +4085,7 @@
       "platform" : "ground_based_column"
     } 
   },
-  "TK": {
+  "TKT": {
     "TCCON": {
       "height" : "column", 
       "height_name" : "column", 
@@ -4096,7 +4096,7 @@
       "platform" : "ground_based_column"
     } 
   },
-  "WG": {
+  "WGT": {
     "TCCON": {
       "height" : "column", 
       "height_name" : "column", 
@@ -4107,7 +4107,7 @@
       "platform" : "ground_based_column"
     } 
   },
-  "XH": {
+  "XHT": {
     "TCCON": {
       "height" : "column", 
       "height_name" : "column", 
