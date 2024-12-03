@@ -1442,8 +1442,8 @@
     }
   },
   "IMP": {
-    "height": ["26m"]
-    "height_name": ["26magl"]
+    "height": ["26m"],
+    "height_name": ["26magl"],
     "height_station_masl": 36.0,
     "latitude": 51.4988,
     "long_name": "Imperial College London, London, UK",
