@@ -3092,7 +3092,7 @@
   },
   "TAC": {
     "AGAGE": {
-      "height": ["185m", "54m", "100m"],
+      "height": ["185m", "100m", "54m"],
       "height_name": ["185magl", "100magl", "54magl"],
       "height_station_masl": 64,
       "latitude": 52.51882,
