@@ -286,8 +286,8 @@
   },
   "BIR": {
     "ICOS": {
-      "height": ["10m", "75m"],
-      "height_name": ["10magl", "75magl"],
+      "height": ["75m", "10m"],
+      "height_name": ["75magl", "10magl"],
       "height_station_masl": 219.0,
       "latitude": 58.3886,
       "long_name": "Birkenes Observatory, Norway",
