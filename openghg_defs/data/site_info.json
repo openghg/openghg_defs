@@ -1701,8 +1701,8 @@
   },
   "KIT": {
     "ICOS": {
-      "height": ["30m", "60m", "100m", "200m"],
-      "height_name": ["30magl", "60magl", "100magl", "200magl"],
+      "height": ["200m", "100m", "60m", "30m"],
+      "height_name": ["200magl", "100magl", "60magl", "30magl"],
       "height_station_masl": 110.0,
       "latitude": 49.0915,
       "long_name": "Karlsruhe, Germany",
