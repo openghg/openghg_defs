@@ -58,9 +58,9 @@
       "height": ["27m"],
       "height_name": ["30magl"],
       "height_station_masl": 20.0,
-      "latitude": 69.62,
+      "latitude": 69.6200,
       "long_name": "Ambarchik, Russia",
-      "longitude": 162.3
+      "longitude": 162.3000
     }
   },
   "AMS": {
@@ -195,7 +195,7 @@
       "height": ["50m"],
       "height_name": ["50magl"],
       "height_station_masl": 110,
-      "latitude": 54.705,
+      "latitude": 54.7050,
       "long_name": "Azovo, Russia",
       "longitude": 73.0292
     }
@@ -613,7 +613,7 @@
       "height": ["50m"],
       "height_name": ["50magl"],
       "height_station_masl": 760,
-      "latitude": 40.601,
+      "latitude": 40.60100,
       "long_name": "CNR-IMAA Atmospheric Observatory",
       "longitude": 15.72369
     }
@@ -3097,7 +3097,7 @@
       "height_station_masl": 64,
       "latitude": 52.51882,
       "long_name": "Tacolneston Tower, UK",
-      "longitude": 1.1387
+      "longitude": 1.13870
     },
     "DECC": {
       "height": ["185m", "54m", "100m"],
@@ -3105,13 +3105,13 @@
       "height_station_masl": 64,
       "latitude": 52.51882,
       "long_name": "Tacolneston Tower, UK",
-      "longitude": 1.1387
+      "longitude": 1.13870
     },
     "NOAA": {
       "height_station_masl": 64,
       "latitude": 52.51882,
       "long_name": "Tacolneston, United Kingdom",
-      "longitude": 1.1387
+      "longitude": 1.13870
     }
   },
   "TAO": {
