@@ -3576,16 +3576,6 @@
       "platform" : "ground_based_column"
     } 
   },
-  "TOH": {
-    "ICOS": {
-      "height": ["147m"],
-      "height_name": ["147magl"],
-      "height_station_masl": 801.0,
-      "latitude": 51.8088,
-      "long_name": "Torfhaus, Germany",
-      "longitude": 10.535
-    }
-  },
   "TMB": {
     "CRANFIELD": {
       "height": ["5m"],
