@@ -294,6 +294,17 @@
       "longitude": 8.2519
     }
   },
+  "BIT": {
+    "TCCON": {
+      "height" : "column", 
+      "height_name" : "column", 
+      "height_station_masl" : 185.0, 
+      "latitude" : 53.23, 
+      "long_name" : "bialystok01, Bialystok, Poland", 
+      "longitude" : 23.03, 
+      "platform" : "ground_based_column"
+    } 
+  },
   "BKT": {
     "NOAA": {
       "height_station_masl": 845.0,
@@ -374,6 +385,17 @@
       "longitude": 8.1755
     }
   },
+  "BRT": {
+    "TCCON": {
+      "height" : "column", 
+      "height_name" : "column", 
+      "height_station_masl" : 27.0, 
+      "latitude" : 53.104, 
+      "long_name" : "bremen01, Bremen, Germany", 
+      "longitude" : 8.85, 
+      "platform" : "ground_based_column"
+    } 
+  },
   "BRW": {
     "NOAA": {
       "height": ["17m", "11m", "5m"],
@@ -447,6 +469,17 @@
       "longitude": -0.1389,
       "status": "current"
     }
+  },
+  "BUT": {
+    "TCCON": {
+      "height" : "column", 
+      "height_name" : "column", 
+      "height_station_masl" : 3.0, 
+      "latitude" : 18.5325, 
+      "long_name" : "burgos01, Burgos, Ilocos Norte, Philippines", 
+      "longitude" : 120.6496, 
+      "platform" : "ground_based_column"
+    } 
   },
   "BWD": {
     "NOAA": {
@@ -625,6 +658,17 @@
       "long_name": "Centro de Investigacion de la Baja Atmosfera (CIBA), Spain",
       "longitude": -4.93
     }
+  },
+  "CIT": {
+    "TCCON": {
+      "height" : "column", 
+      "height_name" : "column", 
+      "height_station_masl" : 23.0, 
+      "latitude" : 34.136, 
+      "long_name" : "pasadena01, California Institute of Technology, Pasadena, California, USA", 
+      "longitude" : 118.127, 
+      "platform" : "ground_based_column"
+    } 
   },
   "CLA": {
     "NIES": {
@@ -819,6 +863,28 @@
       "height_name": ["8magl"]
     }
   },
+  "DBT": {
+    "TCCON": {
+      "height" : "column", 
+      "height_name" : "column", 
+      "height_station_masl" : 3.0, 
+      "latitude" : 12.425, 
+      "long_name" : "darwin01, Darwin, Australia", 
+      "longitude" : 130.891, 
+      "platform" : "ground_based_column"
+    } 
+  },
+  "DFT": {
+    "TCCON": {
+      "height" : "column", 
+      "height_name" : "column", 
+      "height_station_masl" : 700.0, 
+      "latitude" : 34.959917, 
+      "long_name" : "edwards01, Armstrong Flight Research Center, Edwards, CA, USA", 
+      "longitude" : 117.881069, 
+      "platform" : "ground_based_column"
+    } 
+  },
   "DJI": {
     "AGAGE": {
       "height": ["10m"],
@@ -967,6 +1033,39 @@
       "longitude": -104.9868
     }
   },
+  "ETT": {
+    "TCCON": {
+      "height" : "column", 
+      "height_name" : "column", 
+      "height_station_masl" : 50.0, 
+      "latitude" : 54.354, 
+      "long_name" : "easttroutlake01, East Trout Lake, Canada", 
+      "longitude" : 104.987, 
+      "platform" : "ground_based_column"
+    } 
+  },
+  "EUT": {
+    "TCCON": {
+      "height" : "column", 
+      "height_name" : "column", 
+      "height_station_masl" : 61.0, 
+      "latitude" : 80.05, 
+      "long_name" : "eureka01, Eureka, Canada", 
+      "longitude" : 86.42, 
+      "platform" : "ground_based_column"
+    } 
+  },
+  "FCT": {
+    "TCCON": {
+      "height" : "column", 
+      "height_name" : "column", 
+      "height_station_masl" : 44.0, 
+      "latitude" : 45.945, 
+      "long_name" : "fourcorners01, Four Corners, NM, USA", 
+      "longitude" : 90.273, 
+      "platform" : "ground_based_column"
+    } 
+  },
   "FLK": {
     "BAS": {
       "height": ["10m"],
@@ -1054,6 +1153,17 @@
       "height": ["132m"],
       "height_name": ["132magl"]
     }
+  },
+  "GMT": {
+    "TCCON": {
+      "height" : "column", 
+      "height_name" : "column", 
+      "height_station_masl" : 74.0, 
+      "latitude" : 47.476, 
+      "long_name" : "garmisch01, Garmisch, Germany", 
+      "longitude" : 11.063, 
+      "platform" : "ground_based_column"
+    } 
   },
   "GAUGE-FAAM": {
     "GAUGE": {
@@ -1338,6 +1448,17 @@
       "longitude": 0.23048
     }
   },
+  "HFE": {
+    "TCCON": {
+      "height" : "column", 
+      "height_name" : "column", 
+      "height_station_masl" : 35.0, 
+      "latitude" : 31.91, 
+      "long_name" : "hefei01, Hefei, China", 
+      "longitude" : 117.17, 
+      "platform" : "ground_based_column"
+    } 
+  },
   "HFM": {
     "NOAA": {
       "height": ["29m"],
@@ -1435,6 +1556,17 @@
       "longitude": 16.65
     }
   },
+  "HWT": {
+    "TCCON": {
+      "height" : "column", 
+      "height_name" : "column", 
+      "height_station_masl" : 44.0, 
+      "latitude" : 45.945, 
+      "long_name" : "harwell01, Space Sciecne and Technology Department, STFC Rutherford Appleton Laboratory, Harwell Campus, Didcot, Oxfordshire, OX11 0QX, UK", 
+      "longitude" : 90.273, 
+      "platform" : "ground_based_column"
+    } 
+  },
   "ICE": {
     "NOAA": {
       "height": ["10m"],
@@ -1445,7 +1577,17 @@
       "longitude": -20.288
     }
   },
-
+  "IFT": {
+    "TCCON": {
+      "height" : "column", 
+      "height_name" : "column", 
+      "height_station_masl" : 700.0, 
+      "latitude" : 34.959917, 
+      "long_name" : "indianapolis01, Indianapolis, Indiana, USA", 
+      "longitude" : 117.881069, 
+      "platform" : "ground_based_column"
+    } 
+  },
   "IMP": {
       "height": ["26m"],
       "height_name": ["26magl"],
@@ -1454,7 +1596,6 @@
       "long_name": "Imperial College London, London, UK",
       "longitude": -0.1749
     },
-
   "INU": {
     "EC": {
       "height": ["10m"],
@@ -1639,6 +1780,17 @@
       "longitude": -16.499
     }
   },
+  "IZT": {
+    "TCCON": {
+      "height" : "column", 
+      "height_name" : "column", 
+      "height_station_masl" : 237.0, 
+      "latitude" : 28.31, 
+      "long_name" : "izana01, Izana, Tenerife, Spain", 
+      "longitude" : 16.5, 
+      "platform" : "ground_based_column"
+    } 
+  },
   "JBO": {
     "DECC": {
       "height": ["45m"],
@@ -1648,6 +1800,17 @@
       "long_name": "Jodrell Bank, United Kingdom",
       "longitude": -2.30538
     }
+  },
+  "JCT": {
+    "TCCON": {
+      "height" : "column", 
+      "height_name" : "column", 
+      "height_station_masl" : 390.0, 
+      "latitude" : 34.202, 
+      "long_name" : "jpl01, Jet Propulsion Laboratory, Pasadena, California, USA", 
+      "longitude" : 118.175, 
+      "platform" : "ground_based_column"
+    } 
   },
   "JFJ": {
     "AGAGE": {
@@ -1675,6 +1838,28 @@
       "height_name": ["5magl"]
     }
   },
+  "JFT": {
+    "TCCON": {
+      "height" : "column", 
+      "height_name" : "column", 
+      "height_station_masl" : 390.0, 
+      "latitude" : 34.202, 
+      "long_name" : "jpl02, Jet Propulsion Laboratory, Pasadena, California, USA", 
+      "longitude" : 118.175, 
+      "platform" : "ground_based_column"
+    } 
+  },
+  "JST": {
+    "TCCON": {
+      "height" : "column", 
+      "height_name" : "column", 
+      "height_station_masl" : 7.0, 
+      "latitude" : 33.241, 
+      "long_name" : "saga01, Saga, Japan", 
+      "longitude" : 130.2882, 
+      "platform" : "ground_based_column"
+    } 
+  },
   "JUE": {
     "ICOS": {
       "height": ["50m", "80m", "120m"],
@@ -1684,6 +1869,17 @@
       "long_name": "Julich, Germany",
       "longitude": 6.4096
     }
+  },
+  "KAT": {
+    "TCCON": {
+      "height" : "column", 
+      "height_name" : "column", 
+      "height_station_masl" : 11.0, 
+      "latitude" : 49.103, 
+      "long_name" : "karlsruhe01, Karlsruhe, Germany", 
+      "longitude" : 8.44, 
+      "platform" : "ground_based_column"
+    } 
   },
   "KCO": {
     "NOAA": {
@@ -1868,6 +2064,17 @@
       "longitude": 0.174544
     }
   },
+  "LHT": {
+    "TCCON": {
+      "height" : "column", 
+      "height_name" : "column", 
+      "height_station_masl" : 37.0, 
+      "latitude" : 45.038, 
+      "long_name" : "lauder01, Lauder, New Zealand, 120HR", 
+      "longitude" : 169.684, 
+      "platform" : "ground_based_column"
+    } 
+  },
   "LMP": {
     "ICOS": {
       "height": ["8m"],
@@ -1964,6 +2171,28 @@
       "longitude": 120.87
     }
   },
+  "LLT": {
+    "TCCON": {
+      "height" : "column", 
+      "height_name" : "column", 
+      "height_station_masl" : 37.0, 
+      "latitude" : 45.038, 
+      "long_name" : "lauder02, Lauder, New Zealand, 125HR", 
+      "longitude" : 169.684, 
+      "platform" : "ground_based_column"
+    } 
+  },
+  "LRT": {
+    "TCCON": {
+      "height" : "column", 
+      "height_name" : "column", 
+      "height_station_masl" : 37.0, 
+      "latitude" : 45.038, 
+      "long_name" : "lauder03, Lauder, New Zealand, 125HR", 
+      "longitude" : 169.684, 
+      "platform" : "ground_based_column"
+    } 
+  },
   "LUT": {
     "ICOS": {
       "height": ["60m"],
@@ -1991,6 +2220,17 @@
       "height": ["10m"],
       "height_name": ["10magl"]
     }
+  },
+  "MAT": {
+    "TCCON": {
+      "height" : "column", 
+      "height_name" : "column", 
+      "height_station_masl" : 44.0, 
+      "latitude" : 45.945, 
+      "long_name" : "manaus01, Manaus, Brazil", 
+      "longitude" : 90.273, 
+      "platform" : "ground_based_column"
+    } 
   },
   "MBC": {
     "NOAA": {
@@ -2248,6 +2488,17 @@
       "longitude": -70.63
     }
   },
+  "NIT": {
+    "TCCON": {
+      "height" : "column", 
+      "height_name" : "column", 
+      "height_station_masl" : 185.0, 
+      "latitude" : 35.141, 
+      "long_name" : "nicosia01, Nicosia (CY), The Cyprus Institute", 
+      "longitude" : 33.381, 
+      "platform" : "ground_based_column"
+    } 
+  },
   "NMB": {
     "NOAA": {
       "height_station_masl": 456.0,
@@ -2333,6 +2584,17 @@
       "longitude": -105.5864
     }
   },
+  "NYT": {
+    "TCCON": {
+      "height" : "column", 
+      "height_name" : "column", 
+      "height_station_masl" : 27.0, 
+      "latitude" : 78.9, 
+      "long_name" : "nyalesund01, Ny-Ålesund, Svalbard, Norway", 
+      "longitude" : 11.9, 
+      "platform" : "ground_based_column"
+    } 
+  },
   "NZL": {
     "NOAA": {
       "height_station_masl": 3.0,
@@ -2350,6 +2612,17 @@
       "height": ["301m"],
       "height_name": ["301magl"]
     }
+  },
+  "OCT": {
+    "TCCON": {
+      "height" : "column", 
+      "height_name" : "column", 
+      "height_station_masl" : 32.0, 
+      "latitude" : 36.604, 
+      "long_name" : "lamont01, Lamont, Oklahoma, USA", 
+      "longitude" : 97.486, 
+      "platform" : "ground_based_column"
+    } 
   },
   "OIL": {
     "NOAA": {
@@ -2405,6 +2678,17 @@
       "longitude": -124
     }
   },
+  "ORT": {
+    "TCCON": {
+      "height" : "column", 
+      "height_name" : "column", 
+      "height_station_masl" : 134.0, 
+      "latitude" : 47.97, 
+      "long_name" : "orleans01, Orleans, France", 
+      "longitude" : 2.113, 
+      "platform" : "ground_based_column"
+    } 
+  },
   "OTA": {
     "NOAA": {
       "latitude": -38.522,
@@ -2454,6 +2738,17 @@
       "height_station_masl": 0.0,
       "long_name": "Pacific-Atlantic Ocean, N/A"
     }
+  },
+  "PAT": {
+    "TCCON": {
+      "height" : "column", 
+      "height_name" : "column", 
+      "height_station_masl" : 44.0, 
+      "latitude" : 45.945, 
+      "long_name" : "parkfalls01, Park Falls, Wisconsin, USA", 
+      "longitude" : 90.273, 
+      "platform" : "ground_based_column"
+    } 
   },
   "PCO": {
     "NOAA": {
@@ -2625,6 +2920,17 @@
       "longitude": 7.7
     }
   },
+  "PRT": {
+    "TCCON": {
+      "height" : "column", 
+      "height_name" : "column", 
+      "height_station_masl" : 44.0, 
+      "latitude" : 45.945, 
+      "long_name" : "paris01, LERMA, Sorbonne Université, Campus Pierre et Marie Curie, 4 Place Jussieu, Paris 05, France", 
+      "longitude" : 90.273, 
+      "platform" : "ground_based_column"
+    } 
+  },
   "PSA": {
     "NOAA": {
       "height": ["10m"],
@@ -2671,6 +2977,17 @@
       "height_name": ["10magl"]
     }
   },
+  "RAT": {
+    "TCCON": {
+      "height" : "column", 
+      "height_name" : "column", 
+      "height_station_masl" : 8.0, 
+      "latitude" : -20.901, 
+      "long_name" : "reunion01, Reunion Island (Ile de La Reunion), France", 
+      "longitude" : 55.485, 
+      "platform" : "ground_based_column"
+    } 
+  },
   "RGL": {
     "DECC": {
       "height": ["90m", "45m"],
@@ -2715,6 +3032,17 @@
       "long_name": "Royal Holloway",
       "longitude": -0.56278
     }
+  },
+  "RJT": {
+    "TCCON": {
+      "height" : "column", 
+      "height_name" : "column", 
+      "height_station_masl" : 38.0, 
+      "latitude" : 43.4567, 
+      "long_name" : "rikubetsu01, Rikubetsu, Hokkaido, Japan", 
+      "longitude" : 143.7661, 
+      "platform" : "ground_based_column"
+    } 
   },
   "RPB": {
     "AGAGE": {
@@ -3009,6 +3337,17 @@
       "longitude": -78.35
     }
   },
+  "SOT": {
+    "TCCON": {
+      "height" : "column", 
+      "height_name" : "column", 
+      "height_station_masl" : 18.0, 
+      "latitude" : 67.367, 
+      "long_name" : "sodankyla01, Sodankylä, Finland", 
+      "longitude" : 26.631, 
+      "platform" : "ground_based_column"
+    } 
+  },
   "SPF": {
     "NOAA": {
       "height_station_masl": 1623.0,
@@ -3225,6 +3564,17 @@
       "long_name": "Tilney, UK",
       "longitude": 0.32127
     }
+  },
+  "TKT": {
+    "TCCON": {
+      "height" : "column", 
+      "height_name" : "column", 
+      "height_station_masl" : 3.0, 
+      "latitude" : 36.0513, 
+      "long_name" : "tsukuba02, Tsukuba, Ibaraki, Japan, 125HR", 
+      "longitude" : 140.1215, 
+      "platform" : "ground_based_column"
+    } 
   },
   "TOH": {
     "ICOS": {
@@ -3532,6 +3882,17 @@
       "longitude": -0.083932
     }
   },
+  "WGT": {
+    "TCCON": {
+      "height" : "column", 
+      "height_name" : "column", 
+      "height_station_masl" : 3.0, 
+      "latitude" : 34.406, 
+      "long_name" : "wollongong01, Wollongong, Australia", 
+      "longitude" : 150.891, 
+      "platform" : "ground_based_column"
+    } 
+  },
   "WIS": {
     "NOAA": {
       "height": ["5m"],
@@ -3700,6 +4061,17 @@
       "height_name": ["592masl"]
     }
   },
+  "XHT": {
+    "TCCON": {
+      "height" : "column", 
+      "height_name" : "column", 
+      "height_station_masl" : 3.0, 
+      "latitude" : 39.8, 
+      "long_name" : "xianghe01, Xianghe, China", 
+      "longitude" : 116.96, 
+      "platform" : "ground_based_column"
+    } 
+  },
   "YON": {
     "NOAA": {
       "latitude": 24.47,
@@ -3743,379 +4115,5 @@
       "height_name": ["3magl"],
       "long_name": "Zugspitze Schneefernerhaus"
     }
-  },
-  "BIT": {
-    "TCCON": {
-      "height" : "column", 
-      "height_name" : "column", 
-      "height_station_masl" : 185.0, 
-      "latitude" : 53.23, 
-      "long_name" : "bialystok01, Bialystok, Poland", 
-      "longitude" : 23.03, 
-      "platform" : "ground_based_column"
-    } 
-  },
-  "BRT": {
-    "TCCON": {
-      "height" : "column", 
-      "height_name" : "column", 
-      "height_station_masl" : 27.0, 
-      "latitude" : 53.104, 
-      "long_name" : "bremen01, Bremen, Germany", 
-      "longitude" : 8.85, 
-      "platform" : "ground_based_column"
-    } 
-  },
-  "BUT": {
-    "TCCON": {
-      "height" : "column", 
-      "height_name" : "column", 
-      "height_station_masl" : 3.0, 
-      "latitude" : 18.5325, 
-      "long_name" : "burgos01, Burgos, Ilocos Norte, Philippines", 
-      "longitude" : 120.6496, 
-      "platform" : "ground_based_column"
-    } 
-  },
-  "CIT": {
-    "TCCON": {
-      "height" : "column", 
-      "height_name" : "column", 
-      "height_station_masl" : 23.0, 
-      "latitude" : 34.136, 
-      "long_name" : "pasadena01, California Institute of Technology, Pasadena, California, USA", 
-      "longitude" : 118.127, 
-      "platform" : "ground_based_column"
-    } 
-  },
-  "DBT": {
-    "TCCON": {
-      "height" : "column", 
-      "height_name" : "column", 
-      "height_station_masl" : 3.0, 
-      "latitude" : 12.425, 
-      "long_name" : "darwin01, Darwin, Australia", 
-      "longitude" : 130.891, 
-      "platform" : "ground_based_column"
-    } 
-  },
-  "DFT": {
-    "TCCON": {
-      "height" : "column", 
-      "height_name" : "column", 
-      "height_station_masl" : 700.0, 
-      "latitude" : 34.959917, 
-      "long_name" : "edwards01, Armstrong Flight Research Center, Edwards, CA, USA", 
-      "longitude" : 117.881069, 
-      "platform" : "ground_based_column"
-    } 
-  },
-  "ETT": {
-    "TCCON": {
-      "height" : "column", 
-      "height_name" : "column", 
-      "height_station_masl" : 50.0, 
-      "latitude" : 54.354, 
-      "long_name" : "easttroutlake01, East Trout Lake, Canada", 
-      "longitude" : 104.987, 
-      "platform" : "ground_based_column"
-    } 
-  },
-  "EUT": {
-    "TCCON": {
-      "height" : "column", 
-      "height_name" : "column", 
-      "height_station_masl" : 61.0, 
-      "latitude" : 80.05, 
-      "long_name" : "eureka01, Eureka, Canada", 
-      "longitude" : 86.42, 
-      "platform" : "ground_based_column"
-    } 
-  },
-  "FCT": {
-    "TCCON": {
-      "height" : "column", 
-      "height_name" : "column", 
-      "height_station_masl" : 44.0, 
-      "latitude" : 45.945, 
-      "long_name" : "fourcorners01, Four Corners, NM, USA", 
-      "longitude" : 90.273, 
-      "platform" : "ground_based_column"
-    } 
-  },
-  "GMT": {
-    "TCCON": {
-      "height" : "column", 
-      "height_name" : "column", 
-      "height_station_masl" : 74.0, 
-      "latitude" : 47.476, 
-      "long_name" : "garmisch01, Garmisch, Germany", 
-      "longitude" : 11.063, 
-      "platform" : "ground_based_column"
-    } 
-  },
-  "HFE": {
-    "TCCON": {
-      "height" : "column", 
-      "height_name" : "column", 
-      "height_station_masl" : 35.0, 
-      "latitude" : 31.91, 
-      "long_name" : "hefei01, Hefei, China", 
-      "longitude" : 117.17, 
-      "platform" : "ground_based_column"
-    } 
-  },
-  "HWT": {
-    "TCCON": {
-      "height" : "column", 
-      "height_name" : "column", 
-      "height_station_masl" : 44.0, 
-      "latitude" : 45.945, 
-      "long_name" : "harwell01, Space Sciecne and Technology Department, STFC Rutherford Appleton Laboratory, Harwell Campus, Didcot, Oxfordshire, OX11 0QX, UK", 
-      "longitude" : 90.273, 
-      "platform" : "ground_based_column"
-    } 
-  },
-  "IFT": {
-    "TCCON": {
-      "height" : "column", 
-      "height_name" : "column", 
-      "height_station_masl" : 700.0, 
-      "latitude" : 34.959917, 
-      "long_name" : "indianapolis01, Indianapolis, Indiana, USA", 
-      "longitude" : 117.881069, 
-      "platform" : "ground_based_column"
-    } 
-  },
-  "IZT": {
-    "TCCON": {
-      "height" : "column", 
-      "height_name" : "column", 
-      "height_station_masl" : 237.0, 
-      "latitude" : 28.31, 
-      "long_name" : "izana01, Izana, Tenerife, Spain", 
-      "longitude" : 16.5, 
-      "platform" : "ground_based_column"
-    } 
-  },
-  "JCT": {
-    "TCCON": {
-      "height" : "column", 
-      "height_name" : "column", 
-      "height_station_masl" : 390.0, 
-      "latitude" : 34.202, 
-      "long_name" : "jpl01, Jet Propulsion Laboratory, Pasadena, California, USA", 
-      "longitude" : 118.175, 
-      "platform" : "ground_based_column"
-    } 
-  },
-  "JFT": {
-    "TCCON": {
-      "height" : "column", 
-      "height_name" : "column", 
-      "height_station_masl" : 390.0, 
-      "latitude" : 34.202, 
-      "long_name" : "jpl02, Jet Propulsion Laboratory, Pasadena, California, USA", 
-      "longitude" : 118.175, 
-      "platform" : "ground_based_column"
-    } 
-  },
-  "JST": {
-    "TCCON": {
-      "height" : "column", 
-      "height_name" : "column", 
-      "height_station_masl" : 7.0, 
-      "latitude" : 33.241, 
-      "long_name" : "saga01, Saga, Japan", 
-      "longitude" : 130.2882, 
-      "platform" : "ground_based_column"
-    } 
-  },
-  "KAT": {
-    "TCCON": {
-      "height" : "column", 
-      "height_name" : "column", 
-      "height_station_masl" : 11.0, 
-      "latitude" : 49.103, 
-      "long_name" : "karlsruhe01, Karlsruhe, Germany", 
-      "longitude" : 8.44, 
-      "platform" : "ground_based_column"
-    } 
-  },
-  "LHT": {
-    "TCCON": {
-      "height" : "column", 
-      "height_name" : "column", 
-      "height_station_masl" : 37.0, 
-      "latitude" : 45.038, 
-      "long_name" : "lauder01, Lauder, New Zealand, 120HR", 
-      "longitude" : 169.684, 
-      "platform" : "ground_based_column"
-    } 
-  },
-  "LLT": {
-    "TCCON": {
-      "height" : "column", 
-      "height_name" : "column", 
-      "height_station_masl" : 37.0, 
-      "latitude" : 45.038, 
-      "long_name" : "lauder02, Lauder, New Zealand, 125HR", 
-      "longitude" : 169.684, 
-      "platform" : "ground_based_column"
-    } 
-  },
-  "LRT": {
-    "TCCON": {
-      "height" : "column", 
-      "height_name" : "column", 
-      "height_station_masl" : 37.0, 
-      "latitude" : 45.038, 
-      "long_name" : "lauder03, Lauder, New Zealand, 125HR", 
-      "longitude" : 169.684, 
-      "platform" : "ground_based_column"
-    } 
-  },
-  "MAT": {
-    "TCCON": {
-      "height" : "column", 
-      "height_name" : "column", 
-      "height_station_masl" : 44.0, 
-      "latitude" : 45.945, 
-      "long_name" : "manaus01, Manaus, Brazil", 
-      "longitude" : 90.273, 
-      "platform" : "ground_based_column"
-    } 
-  },
-  "NIT": {
-    "TCCON": {
-      "height" : "column", 
-      "height_name" : "column", 
-      "height_station_masl" : 185.0, 
-      "latitude" : 35.141, 
-      "long_name" : "nicosia01, Nicosia (CY), The Cyprus Institute", 
-      "longitude" : 33.381, 
-      "platform" : "ground_based_column"
-    } 
-  },
-  "NYT": {
-    "TCCON": {
-      "height" : "column", 
-      "height_name" : "column", 
-      "height_station_masl" : 27.0, 
-      "latitude" : 78.9, 
-      "long_name" : "nyalesund01, Ny-Ålesund, Svalbard, Norway", 
-      "longitude" : 11.9, 
-      "platform" : "ground_based_column"
-    } 
-  },
-  "OCT": {
-    "TCCON": {
-      "height" : "column", 
-      "height_name" : "column", 
-      "height_station_masl" : 32.0, 
-      "latitude" : 36.604, 
-      "long_name" : "lamont01, Lamont, Oklahoma, USA", 
-      "longitude" : 97.486, 
-      "platform" : "ground_based_column"
-    } 
-  },
-  "ORT": {
-    "TCCON": {
-      "height" : "column", 
-      "height_name" : "column", 
-      "height_station_masl" : 134.0, 
-      "latitude" : 47.97, 
-      "long_name" : "orleans01, Orleans, France", 
-      "longitude" : 2.113, 
-      "platform" : "ground_based_column"
-    } 
-  },
-  "PAT": {
-    "TCCON": {
-      "height" : "column", 
-      "height_name" : "column", 
-      "height_station_masl" : 44.0, 
-      "latitude" : 45.945, 
-      "long_name" : "parkfalls01, Park Falls, Wisconsin, USA", 
-      "longitude" : 90.273, 
-      "platform" : "ground_based_column"
-    } 
-  },
-  "PRT": {
-    "TCCON": {
-      "height" : "column", 
-      "height_name" : "column", 
-      "height_station_masl" : 44.0, 
-      "latitude" : 45.945, 
-      "long_name" : "paris01, LERMA, Sorbonne Université, Campus Pierre et Marie Curie, 4 Place Jussieu, Paris 05, France", 
-      "longitude" : 90.273, 
-      "platform" : "ground_based_column"
-    } 
-  },
-  "RAT": {
-    "TCCON": {
-      "height" : "column", 
-      "height_name" : "column", 
-      "height_station_masl" : 8.0, 
-      "latitude" : -20.901, 
-      "long_name" : "reunion01, Reunion Island (Ile de La Reunion), France", 
-      "longitude" : 55.485, 
-      "platform" : "ground_based_column"
-    } 
-  },
-  "RJT": {
-    "TCCON": {
-      "height" : "column", 
-      "height_name" : "column", 
-      "height_station_masl" : 38.0, 
-      "latitude" : 43.4567, 
-      "long_name" : "rikubetsu01, Rikubetsu, Hokkaido, Japan", 
-      "longitude" : 143.7661, 
-      "platform" : "ground_based_column"
-    } 
-  },
-  "SOT": {
-    "TCCON": {
-      "height" : "column", 
-      "height_name" : "column", 
-      "height_station_masl" : 18.0, 
-      "latitude" : 67.367, 
-      "long_name" : "sodankyla01, Sodankylä, Finland", 
-      "longitude" : 26.631, 
-      "platform" : "ground_based_column"
-    } 
-  },
-  "TKT": {
-    "TCCON": {
-      "height" : "column", 
-      "height_name" : "column", 
-      "height_station_masl" : 3.0, 
-      "latitude" : 36.0513, 
-      "long_name" : "tsukuba02, Tsukuba, Ibaraki, Japan, 125HR", 
-      "longitude" : 140.1215, 
-      "platform" : "ground_based_column"
-    } 
-  },
-  "WGT": {
-    "TCCON": {
-      "height" : "column", 
-      "height_name" : "column", 
-      "height_station_masl" : 3.0, 
-      "latitude" : 34.406, 
-      "long_name" : "wollongong01, Wollongong, Australia", 
-      "longitude" : 150.891, 
-      "platform" : "ground_based_column"
-    } 
-  },
-  "XHT": {
-    "TCCON": {
-      "height" : "column", 
-      "height_name" : "column", 
-      "height_station_masl" : 3.0, 
-      "latitude" : 39.8, 
-      "long_name" : "xianghe01, Xianghe, China", 
-      "longitude" : 116.96, 
-      "platform" : "ground_based_column"
-    } 
   }
 }
