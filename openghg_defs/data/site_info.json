@@ -3379,8 +3379,8 @@
   },
   "THW": {
     "TCCON": {
-      "height": "column",
-      "height_name": "column",
+      "height": ["column"],
+      "height_name": ["column"],
       "height_station_masl": [129.0, 142.0],
       "latitude": 51.57,
       "long_name": "harwell01, Space Sciecne and Technology Department, STFC Rutherford Appleton Laboratory, Harwell Campus, Didcot, Oxfordshire, OX11 0QX, UK",
@@ -3558,7 +3558,7 @@
   },
   "TNY": {
     "TCCON": {
-      "height": ["column"]
+      "height": ["column"],
       "height_name": ["column"],
       "height_station_masl": 20.0,
       "latitude": 78.92,
