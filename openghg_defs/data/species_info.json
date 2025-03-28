@@ -314,7 +314,7 @@
         "print_string": "CO$_2$C$^13$", 
         "units": "per mil"
     },
-    "DCO2C14": {"alt": ["14CO2", "CO2C14", "delta_co2_c14"],
+    "DCO2C14": {"alt": ["14CO2", "CO2C14", "delta_co2_c14", "14C"],
         "group": "CO2", 
         "name": "delta_co2_c14",
         "long_name": "Delta carbon dioxide 14C", 
