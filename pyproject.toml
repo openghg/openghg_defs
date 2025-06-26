@@ -1,3 +1,10 @@
+[build-system]
+requires = [
+    "setuptools>=77.0.3",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "openghg_defs"
 version = "0.0.4"
@@ -8,10 +15,6 @@ requires-python = ">=3.7"
 [project.urls]
 "Homepage" = "https://github.com/openghg/openghg_defs"
 "Bug Tracker" = "https://github.com/openghg/openghg_defs/issues"
-
-[build-system]
-requires = ["setuptools>=61.0"]
-build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
 where = ["."]
