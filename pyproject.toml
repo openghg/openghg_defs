@@ -21,5 +21,3 @@ where = ["."]
 "openghg_defs.data" = ["*"]
 "openghg_defs.data.domain" = ["*"]
 
-[tool.setuptools]
-license-files = ["LICENSE"]
