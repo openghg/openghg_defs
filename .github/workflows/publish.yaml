@@ -42,7 +42,7 @@ jobs:
           cache: "pip"
       - name: Install pypa/build
         run: |
-          pip install --upgrade build
+          pip install --upgrade build setuptools wheel
       - name: Build a binary wheel and a source tarball
         run: |
           python -m build --sdist --wheel --outdir dist/
