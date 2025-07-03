@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=61"]
+requires = ["setuptools>=61", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -8,6 +8,7 @@ version = "0.0.4"
 description = "Supplementary definition data for OpenGHG"
 readme = "README.md"
 requires-python = ">=3.10"
+license = { text = "MIT" }
 
 [project.urls]
 "Homepage" = "https://github.com/openghg/openghg_defs"
@@ -15,11 +16,3 @@ requires-python = ">=3.10"
 
 [tool.setuptools.packages.find]
 where = ["."]
-
-[tool.setuptools.package-data]
-"openghg_defs" = ["*"]
-"openghg_defs.data" = ["*"]
-"openghg_defs.data.domain" = ["*"]
-
-[tool.setuptools]
-license-files = ["LICENSE"]
