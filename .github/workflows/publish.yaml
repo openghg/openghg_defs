@@ -2,7 +2,6 @@ name: openghg_defs workflow
 
 on:
   push:
-    branches: [main, devel]
     tags:
       - "*"
   pull_request:
@@ -30,31 +29,34 @@ jobs:
           pytest .
 
   release_pypi:
-    name: Build and publish Python distributions 📦 to PyPI and TestPyPI
+    name: Build and publish Python distributions 📦 to PyPI (PEP 621, Trusted Publishing)
     runs-on: ubuntu-latest
-    if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags')
+    needs: ["test", "docs"]
+    if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/') && !contains(github.ref_name, '-') && contains(github.ref_name, '.')
+    environment: 
+      name: pypi
+      url: https://pypi.org/p/openghg-defs
+    permissions:
+      id-token: write  # Required for Trusted Publishing
+
     steps:
-      - uses: actions/checkout@v4
-      - name: Set up Python 3.10
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.10"
-          cache: "pip"
-      - name: Install pypa/build
-        run: |
-          pip install --upgrade build setuptools wheel
-      - name: Build a binary wheel and a source tarball
-        run: |
-          python -m build --sdist --wheel --outdir dist/
-      - name: Publish distribution 📦 to Test PyPI
-        uses: pypa/gh-action-pypi-publish@81e9d935c883d0b210363ab89cf05f3894778450
-        with:
-          password: ${{ secrets.TEST_PYPI_API_TOKEN }}
-          repository_url: https://test.pypi.org/legacy/
-      - name: Publish distribution 📦 to PyPI
-        uses: pypa/gh-action-pypi-publish@81e9d935c883d0b210363ab89cf05f3894778450
-        with:
-          password: ${{ secrets.PYPI_API_TOKEN }}
+          python-version: "3.11"
+
+      - name: Install build backend
+        run: python3 -m pip install build --user
+
+      - name: Build distributions
+        run: python3 -m build
+
+      - name: Publish to PyPI (via Trusted Publishing)
+        uses: pypa/gh-action-pypi-publish@release/v1
+
   release_conda:
     name: Build and publish conda package
     runs-on: ubuntu-latest

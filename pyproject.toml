@@ -21,3 +21,4 @@ where = ["."]
 "openghg_defs.data" = ["*"]
 "openghg_defs.data.domain" = ["*"]
 
+[tool.setuptools_scm]
