@@ -572,6 +572,16 @@
       "longitude": 144.69
     }
   },
+  "CGR": {
+    "AGAGE": {
+      "height": ["30m"],
+      "height_name": ["30magl"],
+      "long_name": "Capo Granitola station, Italy",
+      "height_station_masl": 5.0,
+      "latitude": 37.571111,
+      "longitude": 12.659722
+    }
+  },
   "CHL": {
     "EC": {
       "height": ["60m"],
