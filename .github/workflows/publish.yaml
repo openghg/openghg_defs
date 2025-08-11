@@ -85,6 +85,7 @@ jobs:
 
   release_conda:
     name: Build the conda package
+    runs-on: ubuntu-latest
     run: |
       micromamba create -n openghg_build anaconda-client boa -c conda-forge -y
       micromamba activate openghg_build
