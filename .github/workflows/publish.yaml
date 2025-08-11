@@ -84,7 +84,7 @@ jobs:
         uses: pypa/gh-action-pypi-publish@release/v1
 
   release_conda:
-  - name: Build the conda package
+    name: Build the conda package
     run: |
       micromamba create -n openghg_build anaconda-client boa -c conda-forge -y
       micromamba activate openghg_build
