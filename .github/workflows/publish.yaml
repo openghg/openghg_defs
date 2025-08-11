@@ -84,7 +84,7 @@ jobs:
         uses: pypa/gh-action-pypi-publish@release/v1
 
   release_conda:
-    - name: Build the conda package
+  - name: Build the conda package
     run: |
       micromamba create -n openghg_build anaconda-client boa -c conda-forge -y
       micromamba activate openghg_build
@@ -102,5 +102,5 @@ jobs:
       BUILD=$(find "$BUILD_DIR" -name '*.tar.bz2')
 
       anaconda --token "$ANACONDA_TOKEN" upload --user openghg "$BUILD"
-      env:
-        ANACONDA_TOKEN: ${{ secrets.ANACONDA_TOKEN }}
+    env:
+      ANACONDA_TOKEN: ${{ secrets.ANACONDA_TOKEN }}
