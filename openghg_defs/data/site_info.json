@@ -2716,6 +2716,15 @@
       "longitude": -0.56278
     }
   },
+  "ROC": {
+    "ICOS": {
+      "height_name": ["25magl", "80magl", "140magl"],
+      "height_station_masl": ["25m", "80m", "140m"],
+      "latitude": 48.4133,
+      "long_name": "Roc'h Trédudon",
+      "longitude": -3.8895
+    }
+  },
   "RPB": {
     "AGAGE": {
       "height": ["10m"],
