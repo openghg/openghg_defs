@@ -1629,6 +1629,15 @@
       "longitude": -77.393
     }
   },
+  "IVG":{
+    "DECC": {
+      "height": ["100m","50m"],
+      "height_name": ["100magl","50magl"],
+      "latitude": 56.48251,
+      "long_name": "Invergowrie, Perth and Kinross, Scotland, United Kingdom",
+      "longitude": -3.12145
+    }
+  },
   "IZA": {
     "UHei": {
       "height": ["10m"],
