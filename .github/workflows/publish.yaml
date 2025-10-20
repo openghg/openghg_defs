@@ -12,21 +12,17 @@ jobs:
     name: Run tests
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Set up Python 3.10
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - name: Set up Python 3.11 + uv
+        uses: astral-sh/setup-uv@v1
         with:
-          python-version: "3.10"
-          cache: "pip"
-      - name: Install dev requirements
-        run: |
-          pip install -r requirements-dev.txt
-      - name: Install package
-        run: |
-          pip install .
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: uv sync --dev
+
       - name: Run tests
-        run: |
-          pytest .
+        run: uv run pytest .
 
   release_testpypi:
     name: Publish Python 🐍 distribution 📦 to TestPyPI
@@ -39,18 +35,15 @@ jobs:
       id-token: write  # IMPORTANT: mandatory for trusted publishing
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Set up Python + uv
+        uses: astral-sh/setup-uv@v1
         with:
           python-version: "3.11"
 
-      - name: Install build backend
-        run: python3 -m pip install build --user
-
       - name: Build distributions
-        run: python3 -m build
+        run: uv build
 
       - name: Publish to Test PyPI (via Trusted Publishing)
         uses: pypa/gh-action-pypi-publish@release/v1
@@ -67,18 +60,15 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Set up Python + uv
+        uses: astral-sh/setup-uv@v1
         with:
           python-version: "3.11"
 
-      - name: Install build backend
-        run: python3 -m pip install build --user
-
       - name: Build distributions
-        run: python3 -m build
+        run: uv build
 
       - name: Publish to PyPI (via Trusted Publishing)
         uses: pypa/gh-action-pypi-publish@release/v1
