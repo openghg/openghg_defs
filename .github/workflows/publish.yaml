@@ -99,8 +99,12 @@ jobs:
           echo "VERSION=${VERSION}"
           mkdir ${{ github.workspace }}/build
 
-          # Pass version into meta.yaml via env var
-          PKG_VERSION=$VERSION conda mambabuild \
+          # Export PKG_VERSION so it's available to meta.yaml
+          export PKG_VERSION=$VERSION
+          echo "PKG_VERSION=${PKG_VERSION}"
+
+          # Build the conda package
+          conda mambabuild \
             --croot ${{ github.workspace }}/build \
             recipes \
             -c conda-forge
