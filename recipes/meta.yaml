@@ -1,4 +1,5 @@
 {% set version = environ.get('PKG_VERSION', '0.0.0').lstrip('v') %}
+{% set deps = ["python >=3.11", "numpy", "pandas"] %}
 
 package:
   name: openghg_defs
@@ -6,7 +7,7 @@ package:
 
 source:
   git_url: https://github.com/openghg/openghg_defs.git
-  git_rev: {{ version }}
+  git_rev: "v{{ version }}"  # uses the Git tag to checkout
 
 build:
   noarch: python
@@ -15,10 +16,10 @@ build:
 
 requirements:
   host:
+    - python >=3.11
     - pip
-    - python
-    - setuptools
-
+    - hatchling
+    - uv
   run:
     {% for package in deps %}
     - {{ package }}
