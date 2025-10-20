@@ -1159,8 +1159,8 @@
       "height_station_masl": 54.0,
       "long_name": "Space Park Leicester, Leicester, UK",
       "height": ["column"],
-      "height_name": ["column"],
-    },
+      "height_name": ["column"]
+    }
   },
 
   "GGU": {
@@ -1170,8 +1170,8 @@
       "height_station_masl": 47.0,
       "long_name": "Elizabeth College, St Peters Port, Guernsey",
       "height": ["column"],
-      "height_name": ["column"],
-    },
+      "height_name": ["column"]
+    }
   },
 
   "GHA": {
@@ -1181,8 +1181,8 @@
       "height_station_masl": 142.0,
       "long_name": "Rutherford Appleton Laboratory, Harwell, Oxfordshire, UK",
       "height": ["column"],
-      "height_name": ["column"],
-    },
+      "height_name": ["column"]
+    }
   },
 
   "GWE": {
@@ -1192,8 +1192,8 @@
       "height_station_masl": 18.0,
       "long_name": "Weybourne Atmospheric Observatory, Norfolk, UK",
       "height": ["column"],
-      "height_name": ["column"],
-    },
+      "height_name": ["column"]
+    }
   },
 
   "GBI": {
@@ -1203,8 +1203,8 @@
       "height_station_masl": 145.0,
       "long_name": "University of Birmingham, Birmingham, UK",
       "height": ["column"],
-      "height_name": ["column"],
-    },
+      "height_name": ["column"]
+    }
   },
 
   "GCA": {
@@ -1214,8 +1214,8 @@
       "height_station_masl": 23.0,
       "long_name": "Cardiff University, Cardiff, UK",
       "height": ["column"],
-      "height_name": ["column"],
-    },
+      "height_name": ["column"]
+    }
   },
 
   "GNE": {
@@ -1225,8 +1225,8 @@
       "height_station_masl": 59.0,
       "long_name": "Northumbria University, Newcastle, UK",
       "height": ["column"],
-      "height_name": ["column"],
-    },
+      "height_name": ["column"]
+    }
   },
 
   "GOSAT-ALASKA": {
