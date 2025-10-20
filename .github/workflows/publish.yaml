@@ -91,6 +91,7 @@ jobs:
       - name: Build the conda package
         run: |
           micromamba create -n openghg_build anaconda-client boa -c conda-forge -y
+          eval "$(micromamba shell hook -s bash)"
           micromamba activate openghg_build
 
           VERSION=${GITHUB_REF_NAME}  # e.g., 0.0.5
