@@ -87,7 +87,8 @@ jobs:
         uses: mamba-org/setup-micromamba@422500192359a097648154e8db4e39bdb6c6eed7
         with:
           init-shell: bash
-
+      - name: Debug PKG_VERSION
+        run: echo "PKG_VERSION=${PKG_VERSION}"
       - name: Build the conda package
         run: |
           micromamba create -n openghg_build anaconda-client boa -c conda-forge -y
@@ -95,6 +96,7 @@ jobs:
           micromamba activate openghg_build
 
           VERSION=${GITHUB_REF_NAME}  # e.g., 0.0.5
+          echo "VERSION=${VERSION}"
           mkdir ${{ github.workspace }}/build
 
           # Pass version into meta.yaml via env var
