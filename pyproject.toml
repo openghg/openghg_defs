@@ -13,6 +13,12 @@ requires-python = ">=3.11"
 "Homepage" = "https://github.com/openghg/openghg_defs"
 "Bug Tracker" = "https://github.com/openghg/openghg_defs/issues"
 
+[dependency-groups]
+dev = [
+    "uv",
+    "pytest>=8.4.2",
+]
+
 [tool.hatch.version]
 source = "uv-dynamic-versioning"
 
@@ -21,12 +27,6 @@ include = ["openghg_defs*", "recipes*"]
 
 [tool.hatch.build.targets.wheel]
 include = ["openghg_defs*", "recipes*"]
-
-[dependency-groups]
-dev = [
-    "uv",
-    "pytest>=8.4.2",
-]
 
 [tool.uv-dynamic-versioning]
 fallback-version = "0.0.0"
