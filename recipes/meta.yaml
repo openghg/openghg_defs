@@ -1,4 +1,4 @@
-{% set version = environ.get('PKG_VERSION', '0.0.0') %}
+{% set version = environ.get('PKG_VERSION', '0.0.0').lstrip('v') %}
 
 package:
   name: openghg_defs
