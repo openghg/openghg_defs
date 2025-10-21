@@ -88,10 +88,10 @@ jobs:
       - name: Set GIT_TAG (strip leading 'v' if present)
         id: set_tag
         run: |
-          RAW_TAG="${GITHUB_REF_NAME}"
-          CLEAN_TAG="${RAW_TAG#v}"
-          echo "GIT_TAG=${CLEAN_TAG}" >> $GITHUB_ENV
-          echo "Using GIT_TAG=${CLEAN_TAG}"
+          RAW_TAG="${GITHUB_REF_NAME}"          # e.g., v0.0.6
+          CLEAN_TAG="${RAW_TAG#v}"              # 0.0.6
+          echo "GIT_TAG_CLEAN=${CLEAN_TAG}" >> $GITHUB_ENV
+          echo "GIT_TAG_REF=${RAW_TAG}" >> $GITHUB_ENV
 
       - name: Build and push the conda package for openghg_defs
         run: |
