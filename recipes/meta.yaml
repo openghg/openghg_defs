@@ -1,5 +1,3 @@
-{% set conda_env = load_file_data('../environment.yaml', from_recipe_dir=True) %}
-
 {% set deps = conda_env["dependencies"][:-1] %}
 
 package:
