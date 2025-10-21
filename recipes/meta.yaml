@@ -4,7 +4,7 @@
 
 package:
   name: openghg_defs
-  version: "{{ GIT_DESCRIBE_TAG }}"
+  version: "{{ version }}"
 
 source:
   git_url: https://github.com/openghg/openghg_defs.git
@@ -20,7 +20,10 @@ build:
 requirements:
   host:
     - python >=3.11
+    - python >=3.11
     - pip
+    - hatchling
+    - uv
     - hatchling
     - uv
   run:
