@@ -1,5 +1,3 @@
-{% set deps = conda_env["dependencies"][:-1] %}
-
 package:
   name: openghg_defs
   version: "{{ version }}"
