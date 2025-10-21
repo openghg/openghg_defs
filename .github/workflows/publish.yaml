@@ -101,7 +101,7 @@ jobs:
           mkdir ${{ github.workspace }}/build
           conda mambabuild --croot ${{ github.workspace }}/build recipes -c conda-forge
         env:
-          GIT_TAG: ${{ github.ref_name }}
+          GIT_TAG: ${{ env.GIT_TAG }}
       - name: Publish build to Anaconda for openghg_defs
         run: |
           micromamba activate openghg_defs_build
@@ -110,4 +110,4 @@ jobs:
           anaconda --token "$ANACONDA_TOKEN" upload --user openghg --label main "$BUILD"
         env:
           ANACONDA_TOKEN: ${{ secrets.ANACONDA_TOKEN }}
-          GIT_TAG: ${{ github.ref_name }}
+          GIT_TAG: ${{ env.GIT_TAG }}
