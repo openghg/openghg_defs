@@ -17,17 +17,17 @@ build:
   preserve_egg_dir: True
   script: "{{ PYTHON }} -m pip install . -vv"
   script_env:
-    GIT_TAG
+    - GIT_TAG_CLEAN
+    - GIT_TAG_REF
 
 requirements:
   host:
     - python >=3.11
-    - python >=3.11
     - pip
+    - setuptools
+    - wheel
     - hatchling
-    - uv
-    - hatchling
-    - uv
+    - uv-dynamic-versioning
   run:
     {% for package in deps %}
     - {{ package }}

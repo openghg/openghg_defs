@@ -82,14 +82,18 @@ jobs:
         shell: bash -el {0}
     steps:
       - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0 
       - uses: mamba-org/setup-micromamba@v2
         with:
           init-shell: bash
+      - name: Clean previous build folder
+        run: rm -rf $GITHUB_WORKSPACE/build
       - name: Set GIT_TAG (strip leading 'v' if present)
         id: set_tag
         run: |
-          RAW_TAG="${GITHUB_REF_NAME}"          # e.g., v0.0.6
-          CLEAN_TAG="${RAW_TAG#v}"              # 0.0.6
+          RAW_TAG="${GITHUB_REF_NAME}"
+          CLEAN_TAG="${RAW_TAG#v}"
           echo "GIT_TAG_CLEAN=${CLEAN_TAG}" >> $GITHUB_ENV
           echo "GIT_TAG_REF=${RAW_TAG}" >> $GITHUB_ENV
 
@@ -98,10 +102,13 @@ jobs:
           micromamba create -n openghg_defs_build anaconda-client boa conda-verify -c conda-forge
           micromamba activate openghg_defs_build
           conda config --append channels openghg
+          rm -rf ${{ github.workspace }}/build
           mkdir ${{ github.workspace }}/build
           conda mambabuild --croot ${{ github.workspace }}/build recipes -c conda-forge
         env:
-          GIT_TAG: ${{ env.GIT_TAG }}
+          GIT_TAG_CLEAN: ${{ env.GIT_TAG_CLEAN }}
+          GIT_TAG_REF: ${{ env.GIT_TAG_REF }}
+        
       - name: Publish build to Anaconda for openghg_defs
         run: |
           micromamba activate openghg_defs_build
@@ -110,4 +117,5 @@ jobs:
           anaconda --token "$ANACONDA_TOKEN" upload --user openghg --label main "$BUILD"
         env:
           ANACONDA_TOKEN: ${{ secrets.ANACONDA_TOKEN }}
-          GIT_TAG: ${{ env.GIT_TAG }}
+          GIT_TAG_CLEAN: ${{ env.GIT_TAG_CLEAN }}
+          GIT_TAG_REF: ${{ env.GIT_TAG_REF }}
