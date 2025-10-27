@@ -4206,7 +4206,7 @@
        "latitude": 120.6995,
        "longitude": 22.0547,
        "height": ["0m"],
-       "height_name": ["0magl"],
+       "height_name": ["10magl"],
        "long_name": "Hengchun, Taiwan"
     }
     }
