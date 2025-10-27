@@ -14,6 +14,21 @@
     "longitude_increment": "0.352",
     "description": "NAME domain over Arctic region"
   },
+  "CENTRALASIA": {
+    "latitude_file": "domain/CENTRALASIA_latitude.dat",
+    "longitude_file": "domain/CENTRALASIA_longitude.dat",
+    "latitude_range": [
+      "-14.493",
+      "64.833"
+    ],
+    "longitude_range": [
+      "-12.364",
+      "124.916"
+    ],
+    "latitude_increment": "0.234",
+    "longitude_increment": "0.352",
+    "description": "NAME domain over Central Asian region"
+  },
   "EASTASIA": {
     "latitude_file": "domain/EASTASIA_latitude.dat",
     "longitude_file": "domain/EASTASIA_longitude.dat",
@@ -88,5 +103,20 @@
     "latitude_increment": "0.234",
     "longitude_increment": "0.352",
     "description": "NAME domain over the United States of America"
-  }
+  },
+  "WESTUSA": {
+    "latitude_file": "domain/WESTUSA_latitude.dat",
+    "longitude_file": "domain/WESTUSA_longitude.dat",
+    "latitude_range": [
+      "20.000",
+      "66.566"
+    ],
+    "longitude_range": [
+      "-150.000",
+      "-101.072"
+    ],
+    "latitude_increment": "0.234",
+    "longitude_increment": "0.352",
+    "description": "NAME domain over the Western United States of America"
+  }  
 }

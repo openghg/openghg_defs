@@ -464,6 +464,16 @@
       "longitude": -76.9556
     }
   },
+  "CAFE": {
+    "UEA": {
+      "height_station_masl": 52, 
+      "latitude": 121.538,
+      "longitude": 25.297,
+      "height": ["0m"],
+      "height_name": ["0magl"],
+      "long_name": "Cape Fuguei, Taiwan"
+    }
+  },
   "CAR": {
     "NOAA": {
       "height_station_masl": 1488.0,
@@ -1450,6 +1460,16 @@
       "latitude": 51.608031,
       "long_name": "Highfield Tower",
       "longitude": 0.174544
+    }
+  },
+  "HGC": {
+    "UEA": {
+      "height_station_masl": 7, 
+      "latitude": 120.6995,
+      "longitude": 22.0547,
+      "height": ["0m"],
+      "height_name": ["10magl"],
+      "long_name": "Hengchun, Taiwan"
     }
   },
   "HIL": {
@@ -4258,13 +4278,13 @@
     }
   },
   "ZSF": {
-    "ICOS": {
-      "height_station_masl": 2666,
-      "latitude": 47.4165,
-      "longitude": 10.97964,
-      "height": ["3m"],
-      "height_name": ["3magl"],
-      "long_name": "Zugspitze Schneefernerhaus"
-    }
+	"ICOS": {
+	  "height_station_masl": 2666,
+	  "latitude": 47.4165,
+	  "longitude": 10.97964,
+	  "height": ["3m"],
+	  "height_name": ["3magl"],
+	  "long_name": "Zugspitze Schneefernerhaus"
+	}
   }
 }
