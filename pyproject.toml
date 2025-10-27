@@ -1,24 +1,31 @@
 [build-system]
-requires = ["setuptools>=64", "setuptools-scm>=8"]
-build-backend = "setuptools.build_meta"
+requires = ["hatchling", "uv-dynamic-versioning"]
+build-backend = "hatchling.build"
 
 [project]
 name = "openghg_defs"
 dynamic = ["version"]
 description = "Supplementary definition data for OpenGHG"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.11"
+
+dependencies = [
+    "uv",
+    "pytest>=8.4.2",
+]
 
 [project.urls]
 "Homepage" = "https://github.com/openghg/openghg_defs"
 "Bug Tracker" = "https://github.com/openghg/openghg_defs/issues"
 
-[tool.setuptools.packages.find]
-where = ["."]
+[tool.hatch.version]
+source = "uv-dynamic-versioning"
 
-[tool.setuptools.package-data]
-"openghg_defs" = ["*"]
-"openghg_defs.data" = ["*"]
-"openghg_defs.data.domain" = ["*"]
+[tool.hatch.build.targets.sdist]
+include = ["openghg_defs*", "recipes*"]
 
-[tool.setuptools_scm]
+[tool.hatch.build.targets.wheel]
+include = ["openghg_defs*", "recipes*"]
+
+[tool.uv-dynamic-versioning]
+fallback-version = "0.0.0"
