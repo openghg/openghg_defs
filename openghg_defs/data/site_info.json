@@ -4015,6 +4015,16 @@
       "longitude": 12.65972
     }
   },
+  "VTO": {
+    "ICOS": {
+      "height": ["10m"],
+      "height_name": ["10magl"],
+      "height_station_masl": 25.0,
+      "latitude": 51.90836,
+      "long_name": "Valentia Island, Ireland",
+      "longitude": 10.4032
+    }
+  },
   "WAO": {
     "ICOS": {
       "height": ["10m"],
