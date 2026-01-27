@@ -155,10 +155,10 @@
       "longitude": 5.632
     }
   },
-  "ASP": {
-    "CSIRO": {
-      "latitude": -38.01,
-      "longitude": 145.01,
+  "ASA": {
+    "AGAGE": {
+      "latitude": -38.03,
+      "longitude": 145.10,
       "long_name": "Aspendale, Australia"
     }
   },
@@ -583,12 +583,12 @@
     }
   },
   "CGR": {
-    "AGAGE": {
-      "height": ["30m"],
-      "height_name": ["30magl"],
-      "long_name": "Capo Granitola station, Italy",
+    "PARIS": {
+      "height": ["6m"],
+      "height_name": ["6magl"],
       "height_station_masl": 5.0,
       "latitude": 37.571111,
+      "long_name": "Capo Granitola station, Italy",
       "longitude": 12.659722
     }
   },
@@ -1709,6 +1709,14 @@
     }
   },
   "IPR": {
+    "ICOS": {
+      "latitude": 45.8147,
+      "longitude": 8.6360,
+      "height_station_masl": 210.0,
+      "long_name": "Ispra, Italy",
+      "height": ["40m"],
+      "height_name": ["40magl"]
+    },
     "NOAA": {
       "latitude": 45.807,
       "longitude": 8.63,
@@ -2813,6 +2821,14 @@
     }
   },
   "PUY": {
+    "ICOS": {
+      "latitude": 45.7719,
+      "longitude": 2.9658,
+      "height_station_masl": 1465.0,
+      "long_name": "Puy de Dome, France",
+      "height": ["10m"],
+      "height_name": ["10magl"]
+    },
     "NOAA": {
       "latitude": 45.7719,
       "longitude": 2.9658,
@@ -3997,6 +4013,16 @@
       "latitude": 37.57111,
       "long_name": "Cape Granitola, Italy",
       "longitude": 12.65972
+    }
+  },
+  "VTO": {
+    "ICOS": {
+      "height": ["10m"],
+      "height_name": ["10magl"],
+      "height_station_masl": 25.0,
+      "latitude": 51.90836,
+      "long_name": "Valentia Island, Ireland",
+      "longitude": 10.4032
     }
   },
   "WAO": {
