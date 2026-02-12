@@ -2455,13 +2455,14 @@
   },
   "NPL": {
     "LGHG": {
-      "height": ["NA"],
-      "height_name": ["NA"],
+      "height": ["17m"],
+      "height_name": ["17magl"],
       "height_station_masl": 0,
       "latitude": 51.4241,
       "long_name": "National Physical Laboratory",
       "longitude": -0.3487,
-      "status": "current"
+      "status": "current",
+      "comments": "Rooftop instrument at NPL campus in Teddington"
     }
   },
   "NWB": {
