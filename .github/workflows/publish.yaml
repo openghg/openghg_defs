@@ -14,9 +14,10 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - name: Set up Python 3.11 + uv
-        uses: astral-sh/setup-uv@v1
+        uses: astral-sh/setup-uv@v7
         with:
           python-version: "3.11"
+          enable-cache: true
 
       - name: Install dependencies
         run: uv sync
@@ -38,7 +39,7 @@ jobs:
         uses: actions/checkout@v5
 
       - name: Set up Python + uv
-        uses: astral-sh/setup-uv@v1
+        uses: astral-sh/setup-uv@v7
         with:
           python-version: "3.11"
 
@@ -63,7 +64,7 @@ jobs:
         uses: actions/checkout@v5
 
       - name: Set up Python + uv
-        uses: astral-sh/setup-uv@v1
+        uses: astral-sh/setup-uv@v7
         with:
           python-version: "3.11"
 
