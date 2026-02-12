@@ -30,7 +30,3 @@ include = ["openghg_defs*", "recipes*"]
 [tool.uv-dynamic-versioning]
 pattern = "default-unprefixed"
 fallback-version = "0.0.0"
-enable = true
-vcs = "git"
-style = "pep621"
-metadata = false  # This disables the +hash local identifier
