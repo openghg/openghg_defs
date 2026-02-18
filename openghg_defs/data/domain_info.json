@@ -59,7 +59,7 @@
     "longitude_increment": "0.352",
     "description": "NAME domain over Europe and the Atlantic (large)"
   },
-  "EUROPE6KM": {
+  "EUROPE-6KM": {
     "latitude_file": "domain/EUROPE6KM_latitude.dat",
     "longitude_file": "domain/EUROPE6KM_longitude.dat",
     "latitude_range": [
