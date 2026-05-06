@@ -19,11 +19,11 @@
     "longitude_file": "domain/CENTRALASIA_longitude.dat",
     "latitude_range": [
       "-14.543",
-      "57.997"
+      "57.763"
     ],
     "longitude_range": [
       "8.756",
-      "124.916"
+      "124.564"
     ],
     "latitude_increment": "0.234",
     "longitude_increment": "0.352",
@@ -73,7 +73,7 @@
     "latitude_increment": "0.058",
     "longitude_increment": "0.088",
     "description": "EUROPE-6km grid domain"
-  },  
+  },
   "PACIFIC": {
     "latitude_file": "domain/PACIFIC_latitude.dat",
     "longitude_file": "domain/PACIFIC_longitude.dat",
@@ -133,5 +133,5 @@
     "latitude_increment": "0.234",
     "longitude_increment": "0.352",
     "description": "NAME domain over the Western United States of America"
-  }  
+  }
 }
