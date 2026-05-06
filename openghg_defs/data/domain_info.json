@@ -18,16 +18,16 @@
     "latitude_file": "domain/CENTRALASIA_latitude.dat",
     "longitude_file": "domain/CENTRALASIA_longitude.dat",
     "latitude_range": [
-      "-14.493",
-      "64.833"
+      "-14.543",
+      "57.997"
     ],
     "longitude_range": [
-      "-12.364",
+      "8.756",
       "124.916"
     ],
     "latitude_increment": "0.234",
     "longitude_increment": "0.352",
-    "description": "NAME domain over Central Asian region"
+    "description": "NAME domain over Central Asian region (corrected May 2026)"
   },
   "EASTASIA": {
     "latitude_file": "domain/EASTASIA_latitude.dat",
