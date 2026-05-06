@@ -59,6 +59,21 @@
     "longitude_increment": "0.352",
     "description": "NAME domain over Europe and the Atlantic (large)"
   },
+  "EUROPE-6KM": {
+    "latitude_file": "domain/EUROPE6KM_latitude.dat",
+    "longitude_file": "domain/EUROPE6KM_longitude.dat",
+    "latitude_range": [
+      "34.50925",
+      "64.87075"
+    ],
+    "longitude_range": [
+      "-11.088",
+      "28.248"
+    ],
+    "latitude_increment": "0.058",
+    "longitude_increment": "0.088",
+    "description": "EUROPE-6km grid domain"
+  },  
   "PACIFIC": {
     "latitude_file": "domain/PACIFIC_latitude.dat",
     "longitude_file": "domain/PACIFIC_longitude.dat",
