@@ -14,7 +14,7 @@ OpenGHG workflow.
 
 First, clone the repository
 
-```console
+```bash
 git clone https://github.com/openghg/openghg_defs.git
 ```
 
@@ -22,19 +22,28 @@ Next, move into the repository and use pip to create an editable install using t
 
 > **_NOTE:_** If you're using OpenGHG, please install `openghg_defs` in the [same virtual environment](https://docs.openghg.org/install.html#id1).
 
-```console
+```bash
 cd openghg_defs
-pip install -e .
+python -m venv .venv
+.venv/bin/activate
+pip install --group dev -e .
 ```
 
 This will create a symbolic link between the folder and your Python environment, meaning any changes you make to
 the files in the repository folder will be accessible to OpenGHG.
 
+Alternatively, `uv` can be used.
+
+```bash
+cd openghg_defs
+uv sync
+```
+
 ### Install from PyPI
 
 If you don't think you'll need to make any changes to the metadata, you can install `openghg_defs` from PyPI using `pip`:
 
-```console
+```bash
 pip install openghg-defs
 ```
 
@@ -42,7 +51,7 @@ pip install openghg-defs
 
 You can also install `openghg_defs` from our `conda` channel:
 
-```console
+```bash
 pip install -c openghg openghg-defs
 ```
 
@@ -56,6 +65,25 @@ import openghg_defs
 species_info_file = openghg_defs.species_info_file
 site_info_file = openghg_defs.site_info_file
 domain_info_file = openghg_defs.domain_info_file
+```
+
+Alternatively, `importlib` can be used
+
+```python
+from importlib.resources import files
+
+species_info_file = files("openghg_defs.data") / "species_info.json"
+site_info_file = files("openghg_defs.data") / "site_info.json"
+domain_info_file = files("openghg_defs.data") / "domain_info.json"
+```
+
+They can then be read using a context manager:
+
+```python
+import json
+
+with species_info_file.open("rb") as f:
+    species_info = json.load(f)
 ```
 
 ## Development
@@ -72,8 +100,22 @@ For the recommended development process please see the [OpenGHG documentation](h
 
 After making changes to the package please ensure you've added a test if adding new functionality and run the tests making sure they all pass.
 
-```console
+#### Virtualenv
+
+```bash
 pytest -v tests/
+```
+
+#### uv
+
+uv:
+```bash
+uv run pytest
+```
+
+More comprehensive tests can be run using tox:
+```bash
+uvx --with tox-uv tox
 ```
 
 ### Release
