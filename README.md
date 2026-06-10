@@ -26,7 +26,7 @@ Next, move into the repository and use pip to create an editable install using t
 cd openghg_defs
 python -m venv .venv
 .venv/bin/activate
-pip install -e .
+pip install --group dev -e .
 ```
 
 This will create a symbolic link between the folder and your Python environment, meaning any changes you make to
