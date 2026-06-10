@@ -20,7 +20,32 @@ dependencies = [
 dev = [
     "openghg_defs",
     "pytest>=9.0.3",
+    "ruff>=0.15.16",
+    "ty>=0.0.46",
 ]
+
+[tool.tox]
+requires = ["tox>=4.20"]
+env_list = ["py310", "py314", "ruff", "ty"]
+
+[tool.tox.env_run_base]
+runner = "uv-venv-lock-runner"
+# extras = ["dev"]
+description = "Run test under {base_python}"
+# set_env = {PYTHONPATH = "{tox_root}"}
+# deps = ["-r {tox_root}/requirements.txt"]
+commands = [["pytest", "--basetemp={envtmpdir}"]]
+
+[tool.tox.env.ruff]
+description = "Run ruff linting and static tests"
+# deps = ["-r {tox_root}/requirements.txt"]
+commands = [["ruff", "check", "openghg_defs", "tests"]]
+
+[tool.tox.env.ty]
+description = "Run ty static tests"
+# deps = ["-r {tox_root}/requirements.txt"]
+commands = [["ty", "check", "openghg_defs", "tests"]]
+
 
 
 [tool.hatch.version]
@@ -35,3 +60,59 @@ include = ["openghg_defs*", "recipes*"]
 [tool.uv-dynamic-versioning]
 pattern = "default-unprefixed"
 fallback-version = "0.0.0"
+
+[tool.ruff]
+line-length = 79
+
+[tool.ruff.lint]
+select = [
+	"F",  # pyflakes: General
+	"E",  # pycodestyle: General errors
+	"W",  # pycodestyle: General warnings
+	"C90",  # mccabe: Name complexity
+	"N",  # pep8-naming: Use proper names
+	"D",  # pydocstyle: Docstring linting
+	"UP",  # pyupgrade:  Don't use old code standards
+	"YTT",  # flake8-2020: Extra flake8 rules
+	"ANN",  # flake8-annotations: Used for type hinting
+	"S",  # flake8-bandit: Security linting
+	"BLE",  # flake8-blind-except: Don't accept raw exceptions
+	"FBT",  # flake8-boolean-trap: Avoid the boolean trap
+	"B",  # flake8-bugbear: Useful hints
+	"A",  # flake8-builtins: Don't use keywords reserved by Python
+	"C4",  # flake8-comprehensions: Useful hints about comprehensions
+	"EM",  # flake8-errmsg: Useful hints when raising exceptions
+	"ISC",  # flake8-implicit-str-concat: Warns against bad string concatenation 
+	"ICN",  # flake8-import-conventions: Use common import names
+	"G",  # flake8-logging-format: Format logging calls properly
+	"PIE",  # flake8-pie: misc lints
+	"T20",  # flake8-print: No print statements, use logging!
+	"PT",  # flake8-pytest-style: Lint pytest files
+	"Q",  # flake8-quotes: Quote linting
+	"RET",  # flake8-return: Lint return values from functions
+	"SLF",  # flake8-self: Don't use a classes private member
+	"SIM",  # flake8-simplify: Simplify your code to make it more readable
+	"TCH",  # flake8-type-checking: Remove overhead from type checking
+	"ARG",  # flake8-unused-arguments: Check for unused arguments
+	"PTH",  # flake8-use-pathlib: Use pathlib wherever possible!
+	"PD",  # pandas-vet: Pandas specific linting
+	"PGH",  # pygrep-hooks: Don't allow coverall noqa ignore comments
+	"TRY",  # tryceratops: Lint try-except blocks
+	"NPY",  # Numpy-specific-rules: Numpy linting
+	"PERF",  # perflint: Improve performance
+	"LOG",  # flake8-logging: Logging specific linting
+	"RUF",  # Ruff-specific-rules: Extra rules
+]
+ignore = [
+	"D203",
+	"D213"
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*.py" = [
+	"D",
+	"ARG",
+	"ANN",
+	"S",
+	"T201"
+]
