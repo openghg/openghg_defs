@@ -106,7 +106,7 @@ After making changes to the package please ensure you've added a test if adding 
 pytest -v tests/
 ```
 
-#### uv
+#### uv
 
 uv:
 ```bash
