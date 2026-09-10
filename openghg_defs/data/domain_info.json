@@ -18,16 +18,16 @@
     "latitude_file": "domain/CENTRALASIA_latitude.dat",
     "longitude_file": "domain/CENTRALASIA_longitude.dat",
     "latitude_range": [
-      "-14.493",
-      "64.833"
+      "-14.543",
+      "57.763"
     ],
     "longitude_range": [
-      "-12.364",
-      "124.916"
+      "8.756",
+      "124.564"
     ],
     "latitude_increment": "0.234",
     "longitude_increment": "0.352",
-    "description": "NAME domain over Central Asian region"
+    "description": "NAME domain over Central Asian region (corrected May 2026)"
   },
   "EASTASIA": {
     "latitude_file": "domain/EASTASIA_latitude.dat",
@@ -58,6 +58,21 @@
     "latitude_increment": "0.234",
     "longitude_increment": "0.352",
     "description": "NAME domain over Europe and the Atlantic (large)"
+  },
+  "EUROPE-6KM": {
+    "latitude_file": "domain/EUROPE6KM_latitude.dat",
+    "longitude_file": "domain/EUROPE6KM_longitude.dat",
+    "latitude_range": [
+      "34.50925",
+      "64.87075"
+    ],
+    "longitude_range": [
+      "-11.088",
+      "28.248"
+    ],
+    "latitude_increment": "0.058",
+    "longitude_increment": "0.088",
+    "description": "EUROPE-6km grid domain"
   },
   "PACIFIC": {
     "latitude_file": "domain/PACIFIC_latitude.dat",
@@ -118,5 +133,5 @@
     "latitude_increment": "0.234",
     "longitude_increment": "0.352",
     "description": "NAME domain over the Western United States of America"
-  }  
+  }
 }
