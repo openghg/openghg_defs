@@ -317,7 +317,7 @@
     "DCO2C14": {"alt": ["14CO2", "CO2C14", "delta_co2_c14", "14C", "C14"],
         "group": "CO2", 
         "name": "delta_co2_c14",
-        "long_name": "big delta according to Stuiver, M. and  Polach, H. A. (1977). Radiocarbon, 19, 355-359.", 
+        "long_name": "Delta (Δ) 14C: per-mil difference between age-corrected, δ13C-normalized sample activity and the absolute international standard; Stuiver & Polach (1977), Radiocarbon 19(3), pp. 355-363, p. 361, section 8, Eq. (1) and the following Δ14C expression.",
         "mol_mass": "46.01",
         "print_string": "C$^14$ - CO$_2$", 
         "units": "per mil"
