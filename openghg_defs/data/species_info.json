@@ -72,6 +72,14 @@
         "mol_mass": "153.8236",
         "print_string": "CCl$_4$", 
         "units": "ppt"
+    },  
+    "ClCH2CH2Cl": {"alt": ["1,2-DCA", "EDC", "1,2-dichloroethane"],
+        "group": "Chloromethanes", 
+        "name": "1,2-dichloroethane", 
+        "long_name": "1,2-dichloroethane", 
+        "mol_mass": "98.959",
+        "print_string": "ClCH$_2$CH$_2$Cl", 
+        "units": "ppt"
     }, 
     "C2HCl3": {"alt": ["TCE", "trichloroethylene"],
         "group": "Chloromethanes", 
@@ -306,7 +314,7 @@
         "print_string": "CO$_2$C$^13$", 
         "units": "per mil"
     },
-    "DCO2C14": {"alt": ["14CO2", "CO2C14", "delta_co2_c14"],
+    "DCO2C14": {"alt": ["14CO2", "CO2C14", "delta_co2_c14", "14C", "C14"],
         "group": "CO2", 
         "name": "delta_co2_c14",
         "long_name": "Delta carbon dioxide 14C", 
