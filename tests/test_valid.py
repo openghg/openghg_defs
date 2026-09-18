@@ -1,20 +1,12 @@
-from importlib.resources import files
 from pathlib import Path
 import json
-import sys
 
-import pytest
-
-from openghg_defs import site_info_file, species_info_file, domain_info_file
-
-if sys.version_info < (3,11):
-    from importlib.abc import Traversable
-else:
-    from importlib.resources.abc import Traversable
-
-@pytest.fixture
-def data_path() -> Traversable:
-    return files("openghg_defs.data")
+from openghg_defs import (
+    data_path,
+    domain_info_file,
+    site_info_file,
+    species_info_file,
+)
 
 # NOTE - these tests should be expanded to check all
 # data matches a simple schema for site info etc
@@ -60,7 +52,15 @@ def test_domain_info_valid():
     assert pkg_json == local_json
 
 
-def test_importlib_interface_site_info(data_path: Traversable):
+def test_data_path_backwards_compatibility():
+    """Is the legacy public data path still available and usable?"""
+    with data_path.joinpath("domain_info.json").open("rb") as interface:
+        domain_info = json.load(interface)
+
+    assert "EUROPE" in domain_info
+
+
+def test_importlib_interface_site_info():
     """Test if the importlib interface works for site_info."""
     with data_path.joinpath("site_info.json").open("rb") as interface:
         pkg_json = json.load(interface)
@@ -69,7 +69,7 @@ def test_importlib_interface_site_info(data_path: Traversable):
     assert pkg_json == local_json
 
 
-def test_importlib_interface_species_info(data_path: Traversable):
+def test_importlib_interface_species_info():
     """Test if the importlib interface works for species_info."""
     with data_path.joinpath("species_info.json").open("rb") as interface:
         pkg_json = json.load(interface)
@@ -77,14 +77,10 @@ def test_importlib_interface_species_info(data_path: Traversable):
         local_json = json.load(local)
     assert pkg_json == local_json
 
-
-
-def test_importlib_interface_domain_info(data_path: Traversable):
+def test_importlib_interface_domain_info():
     """Test if the importlib interface works for domain_info."""
     with data_path.joinpath("domain_info.json").open("rb") as interface:
         pkg_json = json.load(interface)
     with Path("./openghg_defs/data/domain_info.json").open("rb") as local:
         local_json = json.load(local)
     assert pkg_json == local_json
-
-

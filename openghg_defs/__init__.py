@@ -25,6 +25,9 @@ to access the other files in the package.
 
 """
 
+data_path: Traversable = openghg_defs_files
+"""Backward-compatible alias for the OpenGHG definition files directory."""
+
 site_info_file: Traversable = openghg_defs_files / "site_info.json"
 """Link to measurement site information relevant to OpenGHG.
 
