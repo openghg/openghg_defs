@@ -233,7 +233,7 @@
         "name": "ethyne",
         "long_name": "Ethyne", 
         "mol_mass": "26.04", 
-        "print_string": "C$_2$F$_4$", 
+        "print_string": "C$_2$H$_2$", 
         "units": "ppt"
     },
     "C3H8": {"alt": ["propane"],
