@@ -84,3 +84,20 @@ def test_importlib_interface_domain_info():
     with Path("./openghg_defs/data/domain_info.json").open("rb") as local:
         local_json = json.load(local)
     assert pkg_json == local_json
+
+
+def test_species_info_no_duplicates():
+    """Is every species name and alias in species_info.json used only once?"""
+    with species_info_file.open("rb") as interface:
+        species_info = json.load(interface)
+
+    registered = []
+    duplicates = []
+    for species, info in species_info.items():
+        for name in [species] + info.get("alt", []):
+            if name in registered:
+                duplicates.append(name)
+            else:
+                registered.append(name)
+
+    assert not duplicates, f"Duplicated names or aliases: {duplicates}"
