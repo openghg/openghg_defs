@@ -4015,7 +4015,7 @@
       "longitude": 12.65972
     }
   },
-  "VTO": {
+  "VTI": {
     "ICOS": {
       "height": ["10m"],
       "height_name": ["10magl"],
@@ -4311,6 +4311,17 @@
 	  "height": ["3m"],
 	  "height_name": ["3magl"],
 	  "long_name": "Zugspitze Schneefernerhaus"
+	}
+  },
+
+  "FKL": {
+	"ICOS": {
+	  "height_station_masl": 250,
+	  "latitude": 35.3378,
+	  "longitude": 25.6694,
+	  "height": ["15m"],
+	  "height_name": ["15magl"],
+	  "long_name": "finokalia"
 	}
   }
 }
