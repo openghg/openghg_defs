@@ -306,7 +306,7 @@
         "print_string": "H$^2$ - CH$_4$", 
         "units": "per mil"
     }, 
-    "DCO2C13": {"alt": ["13CO2", "CO2C13", "delta_ch4_c13"],
+    "DCO2C13": {"alt": ["13CO2", "CO2C13", "delta_co2_c13"],
         "group": "CO2", 
         "name": "delta_co2_c13",
         "long_name": "Delta carbon dioxide 13C", 
@@ -345,7 +345,7 @@
         "print_string": "H$_2$", 
         "units": "ppt"
     }, 
-    "halon1211": {"alt": ["H-1211", "H1211", "Halon-1211", "Halon 1211", "halon1211"],
+    "halon1211": {"alt": ["H-1211", "H1211", "Halon-1211", "Halon 1211"],
         "group": "Halons",
         "name": "halon1211",  
         "long_name": "Halon-1211", 
@@ -353,7 +353,7 @@
         "print_string": "H-1211", 
         "units": "ppt"
     }, 
-    "halon1301": {"alt": ["H-1301", "H1301", "Halon-1301", "Halon 1301", "halon1301", "h-1301"],
+    "halon1301": {"alt": ["H-1301", "H1301", "Halon-1301", "Halon 1301", "h-1301"],
         "group": "Halons", 
         "name": "halon1301",
         "long_name": "Halon-1301", 
@@ -361,14 +361,14 @@
         "print_string": "H-1301", 
         "units": "ppt"
     }, 
-    "halon2311": {"alt": ["H-2311", "H2311", "Halon-2311", "Halon 2311", "halon2311"],
+    "halon2311": {"alt": ["H-2311", "H2311", "Halon-2311", "Halon 2311"],
         "group": "Halons", 
         "long_name": "Halon-2311", 
         "mol_mass": "197.39", 
         "print_string": "Halon-2311", 
         "units": "ppq"
     }, 
-    "halon2402": {"alt": ["H-2402", "H2402", "Halon-2402", "Halon 2402", "halon2402"],
+    "halon2402": {"alt": ["H-2402", "H2402", "Halon-2402", "Halon 2402"],
         "group": "Halons",
         "name": "halon2402",  
         "long_name": "Halon-2402", 
