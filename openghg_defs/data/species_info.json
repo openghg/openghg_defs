@@ -119,7 +119,7 @@
         "print_string": "CFC-112", 
         "units": "ppt"
     }, 
-    "CFC112a": {"alt": ["CFC-112a", "CFC112a", "112a"],
+    "CFC112a": {"alt": ["CFC-112a", "112a"],
         "group": "CFCs", 
         "long_name": "CFC-112a", 
         "mol_mass": "203.83", 
@@ -147,7 +147,7 @@
         "print_string": "CFC-114", 
         "units": "ppt"
     }, 
-    "CFC114a": {"alt": ["CFC-114a", "CFC114a", "114a"],
+    "CFC114a": {"alt": ["CFC-114a", "114a"],
         "group": "CFCs", 
         "long_name": "CFC-114a", 
         "mol_mass": "170.92", 
@@ -388,7 +388,7 @@
         "print_string": "H$_2$", 
         "units": "ppt"
     }, 
-    "halon1211": {"alt": ["H-1211", "H1211", "Halon-1211", "Halon 1211", "1211"]],
+    "halon1211": {"alt": ["H-1211", "H1211", "Halon-1211", "Halon 1211", "1211"],
         "group": "Halons",
         "name": "halon1211",  
         "long_name": "Halon-1211", 
