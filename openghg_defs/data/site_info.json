@@ -282,6 +282,26 @@
       "longitude": 174.87
     }
   },
+ "VTI": {
+    "ICOS": {
+      "height": ["10m"],
+      "height_name": ["10magl"],
+      "height_station_masl": 25.0,
+      "latitude": 51.90836,
+      "long_name": "Valentia Island, Ireland",
+      "longitude": 10.4032
+    }
+  },
+ "FKL": {
+   "ICOS": {
+      "height": ["15m"],
+      "height_name": ["15magl"],
+      "height_station_masl": 250,
+      "latitude": 35.3378,
+      "long_name": "finokalia",
+      "longitude": 25.6694
+  	}
+  },
   "BIK": {
     "ICOS": {
       "height": ["300m"],
