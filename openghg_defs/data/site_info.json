@@ -2895,6 +2895,16 @@
       "longitude": -0.561312
     }
   },
+  "RCO": {
+    "AGAGE": {
+      "height": ["10m"],
+      "height_name": ["10magl"],
+      "height_station_masl": 2590.0,
+      "latitude": -1.586,
+      "long_name": "Rwanda Climate Observatory, Mt Mugogo",
+      "longitude": 29.566
+    }
+  },
   "RHO": {
     "LGHG": {
       "height_name": ["20magl"],
