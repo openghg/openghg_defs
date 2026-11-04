@@ -14,6 +14,21 @@
     "longitude_increment": "0.352",
     "description": "NAME domain over Arctic region"
   },
+  "CENTRALAFRICA": {
+    "latitude_file": "domain/CENTRALAFRICA_latitude.dat",
+    "longitude_file": "domain/CENTRALAFRICA_longitude.dat",
+    "latitude_range": [
+      "-35.603",
+      "32.725"
+    ],
+    "longitude_range": [
+      "-40.524",
+      "96.756"
+    ],
+    "latitude_increment": "0.234",
+    "longitude_increment": "0.352",
+    "description": "NAME domain over Central African region"
+  },
   "CENTRALASIA": {
     "latitude_file": "domain/CENTRALASIA_latitude.dat",
     "longitude_file": "domain/CENTRALASIA_longitude.dat",
