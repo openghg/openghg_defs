@@ -89,6 +89,21 @@
     "longitude_increment": "0.088",
     "description": "EUROPE-6km grid domain"
   },
+  "NORTHAFRICA": {
+    "latitude_file": "domain/NORTHAFRICA_latitude.dat",
+    "longitude_file": "domain/NORTHAFRICA_longitude.dat",
+    "latitude_range": [
+      "-15.000",
+      "40.926"
+    ],
+    "longitude_range": [
+      "-50.000",
+      "87.280"
+    ],
+    "latitude_increment": "0.234",
+    "longitude_increment": "0.352",
+    "description": "NAME domain over North African region"
+  },
   "PACIFIC": {
     "latitude_file": "domain/PACIFIC_latitude.dat",
     "longitude_file": "domain/PACIFIC_longitude.dat",
@@ -118,6 +133,21 @@
     "latitude_increment": "0.234",
     "longitude_increment": "0.352",
     "description": "NAME domain over South African region"
+  },
+  "SOUTHAMERICA": {
+    "latitude_file": "domain/SOUTHAMERICA_latitude.dat",
+    "longitude_file": "domain/SOUTHAMERICA_longitude.dat",
+    "latitude_range": [
+      "-60.981",
+      "22.323"
+    ],
+    "longitude_range": [
+      "-91.329",
+      "-24.801"
+    ],
+    "latitude_increment": "0.234",
+    "longitude_increment": "0.352",
+    "description": "NAME domain over South American region"
   },
   "USA": {
     "latitude_file": "domain/USA_latitude.dat",
